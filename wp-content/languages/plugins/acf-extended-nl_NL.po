@@ -1,0 +1,3381 @@
+# Translation of Plugins - Advanced Custom Fields: Extended - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Advanced Custom Fields: Extended - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-20 20:59:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Advanced Custom Fields: Extended - Stable (latest release)\n"
+
+#: includes/modules/form/module-form-fields.php:2053
+msgid "Scroll to message"
+msgstr "Scroll naar bericht"
+
+#: includes/modules/form/module-form-action-email.php:744
+msgid "Raw HTML"
+msgstr "Raw HTML"
+
+#: includes/modules/form/module-form.php:43
+msgid "1 form exported"
+msgstr "1 formulier geëxporteerd"
+
+#: includes/modules/form/module-form.php:48
+msgid "1 form imported"
+msgstr "1 formulier geïmporteerd"
+
+#: includes/modules/form/module-form-action-post.php:1103
+#: includes/modules/form/module-form-action-term.php:766
+msgid "#Generated ID"
+msgstr "#Gegenereerde ID"
+
+#: includes/modules/form/module-form-action-email.php:617
+msgid "To"
+msgstr "Naar"
+
+#: includes/modules/form/module-form-action-email.php:598
+msgid "From"
+msgstr "Van"
+
+#: includes/modules/form/module-form-action-email.php:849
+#: includes/modules/form/module-form-action-email.php:913
+msgid "File"
+msgstr "Bestand"
+
+#: includes/modules/form/module-form-action-post.php:1783
+#: includes/modules/form/module-form-action-post.php:1817
+#: includes/modules/form/module-form-action-post.php:1851
+#: includes/modules/form/module-form-action-post.php:1885
+#: includes/modules/form/module-form-action-post.php:1919
+#: includes/modules/form/module-form-action-post.php:1953
+#: includes/modules/form/module-form-action-post.php:1987
+#: includes/modules/form/module-form-action-post.php:2021
+#: includes/modules/form/module-form-action-post.php:2055
+#: includes/modules/form/module-form-action-post.php:2089
+#: includes/modules/form/module-form-action-post.php:2123
+#: includes/modules/form/module-form-action-term.php:1155
+#: includes/modules/form/module-form-action-term.php:1189
+#: includes/modules/form/module-form-action-term.php:1223
+#: includes/modules/form/module-form-action-term.php:1257
+#: includes/modules/form/module-form-action-term.php:1291
+#: includes/modules/form/module-form-action-user.php:2017
+#: includes/modules/form/module-form-action-user.php:2051
+#: includes/modules/form/module-form-action-user.php:2085
+#: includes/modules/form/module-form-action-user.php:2119
+#: includes/modules/form/module-form-action-user.php:2153
+#: includes/modules/form/module-form-action-user.php:2187
+#: includes/modules/form/module-form-action-user.php:2221
+#: includes/modules/form/module-form-action-user.php:2255
+#: includes/modules/form/module-form-action-user.php:2289
+#: includes/modules/form/module-form-action-user.php:2323
+msgid "None"
+msgstr "Geen"
+
+#: includes/modules/form/module-form-action-user.php:1267
+msgid "User"
+msgstr "Gebruiker"
+
+#: includes/modules/form/module-form-action-user.php:1791
+#: includes/modules/form/module-form-action-user.php:2306
+msgid "Role"
+msgstr "Rol"
+
+#: includes/modules/form/module-form-fields.php:1312
+msgid "Kses"
+msgstr "Kses"
+
+#: includes/modules/form/module-form-fields.php:1554
+msgid "Left"
+msgstr "Links"
+
+#: includes/acfe-field-group-functions.php:553
+#: includes/modules/form/module-form-fields.php:1577
+msgid "Label"
+msgstr "Label"
+
+#: includes/modules/form/module-form-action-email.php:571
+#: includes/modules/form/module-form-action-email.php:582
+#: includes/modules/form/module-form-action-user.php:1514
+#: includes/modules/form/module-form-action-user.php:2000
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/modules/form/module-form-action-user.php:1278
+#: includes/modules/form/module-form-action-user.php:1328
+msgid "Login"
+msgstr "Login"
+
+#: includes/modules/form/module-form-fields.php:1578
+msgid "Field"
+msgstr "Veld"
+
+#: includes/modules/form/module-form-action-custom.php:148
+#: includes/modules/form/module-form-action-email.php:541
+#: includes/modules/form/module-form-action-post.php:873
+#: includes/modules/form/module-form-action-post.php:890
+#: includes/modules/form/module-form-action-redirect.php:114
+#: includes/modules/form/module-form-action-term.php:591
+#: includes/modules/form/module-form-action-term.php:608
+#: includes/modules/form/module-form-action-user.php:1195
+#: includes/modules/form/module-form-action-user.php:1212
+msgid "Action"
+msgstr "Actie"
+
+#: includes/modules/form/module-form-action-custom.php:178
+#: includes/modules/form/module-form-fields.php:457
+#: includes/modules/form/module-form-fields.php:548
+#: includes/modules/form/module-form-fields.php:762
+#: includes/modules/form/module-form-fields.php:935
+msgid "Custom"
+msgstr "Aangepast"
+
+#: includes/modules/form/module-form-action-user.php:1314
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/modules/form/module-form.php:309
+msgid "Guides"
+msgstr "Gidsen"
+
+#: includes/modules/form/module-form-action-email.php:692
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: includes/modules/form/module-form-action-email.php:712
+msgid "Content"
+msgstr "Inhoud"
+
+#: includes/modules/form/module-form-action-user.php:1692
+#: includes/modules/form/module-form-action-user.php:2238
+msgid "Website"
+msgstr "Site"
+
+#: includes/modules/form/module-form-fields.php:1174
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/modules/form/module-form-fields.php:1989
+msgid "Success"
+msgstr "Succes"
+
+#: includes/modules/form/module-form-action-email.php:845
+#: includes/modules/form/module-form-action-email.php:909
+msgid "Add file"
+msgstr "Bestand toevoegen"
+
+#: includes/modules/form/module-form-action-user.php:1315
+#: includes/modules/form/module-form-action-user.php:1539
+#: includes/modules/form/module-form-action-user.php:2034
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: includes/modules/form/module-form-action-user.php:1353
+#: includes/modules/form/module-form-action-user.php:1564
+#: includes/modules/form/module-form-action-user.php:2068
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: includes/modules/form/module-form-action-user.php:1642
+#: includes/modules/form/module-form-action-user.php:2170
+msgid "Nickname"
+msgstr "Bijnaam"
+
+#: includes/modules/form/module-form-fields.php:1292
+msgid "Honeypot"
+msgstr "Honeypot"
+
+#: includes/modules/form/module-form-fields.php:1332
+msgid "Uploader"
+msgstr "Uploader"
+
+#: includes/modules/form/module-form.php:31
+#: includes/modules/form/module-form.php:32
+msgid "New Form"
+msgstr "Nieuw formulier"
+
+#: includes/modules/form/module-form-action-user.php:1617
+#: includes/modules/form/module-form-action-user.php:2136
+msgid "Last name"
+msgstr "Achternaam"
+
+#: includes/modules/form/module-form-fields.php:1345
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/modules/form/module-form-action-redirect.php:151
+msgid "Action URL"
+msgstr "Actie URL"
+
+#: includes/modules/form/module-form-action-user.php:1592
+#: includes/modules/form/module-form-action-user.php:2102
+msgid "First name"
+msgstr "Voornaam"
+
+#: includes/modules/form/module-form-fields.php:1247
+msgid "Add action"
+msgstr "Actie toevoegen"
+
+#: includes/modules/form/module-form-fields.php:1362
+msgid "Attributes"
+msgstr "Attributen"
+
+#: includes/modules/form/module-form-action-email.php:874
+msgid "Delete file"
+msgstr "Bestand verwijderen"
+
+#: includes/modules/form/module-form-action-post.php:902
+msgid "Create post"
+msgstr "Bericht maken"
+
+#: includes/modules/form/module-form-action-post.php:1391
+msgid "Date picker"
+msgstr "Datumkiezer"
+
+#: includes/modules/form/module-form-action-term.php:918
+#: includes/modules/form/module-form-action-term.php:1274
+#: includes/modules/form/module-form-action-user.php:1717
+#: includes/modules/form/module-form-action-user.php:2272
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/modules/form/module-form-action-user.php:1224
+msgid "Create user"
+msgstr "Gebruiker aanmaken"
+
+#: includes/modules/form/module-form-action-user.php:1225
+msgid "Update user"
+msgstr "Gebruiker updaten"
+
+#: includes/modules/form/module-form-fields.php:1945
+msgid "Hide errors"
+msgstr "Fouten verbergen"
+
+#: includes/modules/form/module-form.php:261
+#: includes/modules/form/module-form.php:300
+msgid "Integration"
+msgstr "Integratie"
+
+#: includes/modules/form/module-form-action-email.php:17
+msgid "Email action"
+msgstr "E-mail actie"
+
+#: includes/modules/form/module-form-action-email.php:894
+msgid "Static files"
+msgstr "Statische bestanden"
+
+#: includes/modules/form/module-form-action-post.php:987
+#: includes/modules/form/module-form-action-post.php:1535
+#: includes/modules/form/module-form-action-post.php:1723
+msgid "Current Post"
+msgstr "Huidige bericht"
+
+#: includes/modules/form/module-form-action-post.php:1102
+#: includes/modules/form/module-form-action-post.php:1130
+#: includes/modules/form/module-form-action-term.php:765
+#: includes/modules/form/module-form-action-term.php:794
+msgid "Generated ID"
+msgstr "Gegenereerde ID"
+
+#: includes/modules/form/module-form-action-post.php:1318
+#: includes/modules/form/module-form-action-user.php:1470
+#: includes/modules/form/module-form-action-user.php:1956
+msgid "Current User"
+msgstr "Huidige gebruiker"
+
+#: includes/modules/form/module-form-fields.php:1612
+msgid "Submit value"
+msgstr "Waarde indienen"
+
+#: includes/modules/form/module-form-fields.php:1943
+msgid "Below fields"
+msgstr "Onder velden"
+
+#: includes/modules/form/module-form-fields.php:2100
+#: includes/modules/form/module-form.php:112
+msgid "Form updated"
+msgstr "Formulier geüpdatet"
+
+#: includes/modules/form/module-form-action-custom.php:17
+msgid "Custom action"
+msgstr "Aangepaste actie"
+
+#: includes/modules/form/module-form-action-email.php:830
+msgid "Dynamic files"
+msgstr "Dynamische bestanden"
+
+#: includes/modules/form/module-form-fields.php:1719
+msgid "Render field:"
+msgstr "Render veld:"
+
+#: includes/modules/form/module-form.php:301
+msgid "Template Tags"
+msgstr "Template tags"
+
+#: includes/modules/form/module-form-action-email.php:635
+msgid "Reply to"
+msgstr "Antwoord aan"
+
+#: includes/modules/form/module-form.php:33
+msgid "Form Title"
+msgstr "Formuliertitel"
+
+#: includes/modules/form/module-form-action-custom.php:165
+#: includes/modules/form/module-form-action-email.php:558
+#: includes/modules/form/module-form-action-post.php:909
+#: includes/modules/form/module-form-action-redirect.php:131
+#: includes/modules/form/module-form-action-term.php:627
+#: includes/modules/form/module-form-action-user.php:1254
+msgid "Action name"
+msgstr "Actienaam"
+
+#: includes/modules/form/module-form-action-post.php:1219
+#: includes/modules/form/module-form-action-post.php:1936
+msgid "Post excerpt"
+msgstr "Berichtsamenvatting"
+
+#: includes/modules/form/module-form-action-email.php:814
+msgid "Attachments"
+msgstr "Bijlages"
+
+#: includes/modules/form/module-form-action-email.php:654
+msgid "Cc"
+msgstr "CC"
+
+#: includes/modules/form/module-form-action-email.php:673
+msgid "Bcc"
+msgstr "BCC"
+
+#: includes/modules/form/module-form-fields.php:1553
+msgid "Top"
+msgstr "Boven"
+
+#: includes/modules/form/module-form-action-post.php:933
+#: includes/modules/form/module-form-action-term.php:652
+#: includes/modules/form/module-form-action-user.php:1407
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/modules/form/module-form-action-term.php:842
+#: includes/modules/form/module-form-action-term.php:1240
+msgid "Parent"
+msgstr "Hoofd"
+
+#: includes/modules/form/module-form-action-redirect.php:144
+msgid "Redirect"
+msgstr "Omleiden"
+
+#: includes/modules/form/module-form-action-post.php:1119
+#: includes/modules/form/module-form-action-post.php:1868
+msgid "Post name"
+msgstr "Berichtnaam"
+
+#: includes/modules/form/module-form-action-post.php:1362
+#: includes/modules/form/module-form-action-post.php:2004
+msgid "Post date"
+msgstr "Berichtdatum"
+
+#: includes/modules/form/module-form-fields.php:2026
+msgid "Hide form"
+msgstr "Formulier verbergen"
+
+#: includes/modules/form/module-form.php:30
+msgid "Edit Form"
+msgstr "Formulier bewerken"
+
+#: includes/modules/form/module-form-action-post.php:1091
+#: includes/modules/form/module-form-action-post.php:1834
+msgid "Post title"
+msgstr "Berichttitel"
+
+#: includes/modules/form/module-form-action-user.php:1303
+msgid "Login type"
+msgstr "Type login"
+
+#: includes/modules/form/module-form-action-post.php:1506
+#: includes/modules/form/module-form-action-post.php:2072
+msgid "Post parent"
+msgstr "Hoofdbericht"
+
+#: includes/modules/form/module-form-action-post.php:1061
+#: includes/modules/form/module-form-action-post.php:1800
+msgid "Post status"
+msgstr "Berichtstatus"
+
+#: includes/modules/form/module-form-action-user.php:1378
+msgid "Remember me"
+msgstr "Onthoud mij"
+
+#: includes/modules/form/module-form-action-user.php:1667
+#: includes/modules/form/module-form-action-user.php:2204
+msgid "Display name"
+msgstr "Weergavenaam"
+
+#: includes/modules/form/module-form-fields.php:1592
+#: includes/modules/form/module-form-fields.php:1640
+msgid "Submit button"
+msgstr "Verzendknop"
+
+#: includes/modules/form/module-form-action-email.php:743
+#: includes/modules/form/module-form-action-post.php:1175
+#: includes/modules/form/module-form-action-post.php:1248
+#: includes/modules/form/module-form-action-term.php:947
+#: includes/modules/form/module-form-action-user.php:1746
+msgid "Content Editor"
+msgstr "Inhoudseditor"
+
+#: includes/modules/form/module-form-action-email.php:629
+#: includes/modules/form/module-form-action-email.php:666
+#: includes/modules/form/module-form-action-email.php:685
+msgid "email@domain.com"
+msgstr "email@domain.com"
+
+#: includes/modules/form/module-form-action-user.php:1244
+msgid "Built-in validation"
+msgstr "Ingebouwde validatie"
+
+#: includes/modules/form/module-form-fields.php:1720
+msgid "Render all fields:"
+msgstr "Alle velden renderen:"
+
+#: includes/modules/form/module-form-action-user.php:1226
+#: includes/modules/form/module-form-action-user.php:1819
+msgid "Log user"
+msgstr "Gebruiker loggen"
+
+#: includes/modules/form/module-form-action-post.php:903
+msgid "Update post"
+msgstr "Bericht updaten"
+
+#: includes/modules/form/module-form-action-post.php:1666
+#: includes/modules/form/module-form-action-term.php:1033
+#: includes/modules/form/module-form-action-user.php:1897
+msgid "Load Values"
+msgstr "Waardes laden"
+
+#: includes/modules/form/module-form-action-term.php:17
+msgid "Term action"
+msgstr "Term actie"
+
+#: includes/modules/form/module-form-action-term.php:620
+msgid "Create term"
+msgstr "Term aanmaken"
+
+#: includes/modules/form/module-form-action-term.php:621
+msgid "Update term"
+msgstr "Term updaten"
+
+#: includes/modules/form/module-form-action-user.php:19
+msgid "User action"
+msgstr "Gebruikersactie"
+
+#: includes/modules/form/module-form-fields.php:1714
+msgid "Form render"
+msgstr "Formulier render"
+
+#: includes/modules/form/module-form-fields.php:2005
+msgid "Redirection"
+msgstr "Omleiding"
+
+#: includes/modules/form/module-form-action-post.php:1146
+#: includes/modules/form/module-form-action-post.php:1902
+msgid "Post content"
+msgstr "Berichtinhoud"
+
+#: includes/modules/form/module-form-action-post.php:1625
+#: includes/modules/form/module-form-action-term.php:992
+#: includes/modules/form/module-form-action-user.php:1847
+msgid "Save ACF fields"
+msgstr "ACF velden opslaan"
+
+#: includes/modules/form/module-form-action-post.php:2140
+#: includes/modules/form/module-form-action-term.php:1308
+#: includes/modules/form/module-form-action-user.php:2341
+msgid "Load ACF fields"
+msgstr "ACF velden laden"
+
+#: includes/modules/form/module-form-fields.php:1378
+msgid "Form attributes"
+msgstr "Formulier attributen"
+
+#: includes/modules/form/module-form-fields.php:2080
+msgid "Success message"
+msgstr "Succes bericht"
+
+#: includes/modules/form/module-form-action-user.php:1316
+msgid "E-mail or username"
+msgstr "E-mail of gebruikersnaam"
+
+#: includes/modules/form/module-form.php:44
+msgid "%s forms exported"
+msgstr "%s formulieren geëxporteerd"
+
+#: includes/modules/form/module-form-action-user.php:1575
+msgid "Generate Password"
+msgstr "Wachtwoord genereren"
+
+#: includes/modules/form/module-form-fields.php:1757
+msgid "Hide general error"
+msgstr "Algemene fout verbergen"
+
+#: includes/modules/form/module-form-action-post.php:1608
+msgid "Append terms"
+msgstr "Termen navoegen"
+
+#: includes/modules/form/module-form-action-term.php:707
+#: includes/modules/form/module-form-action-term.php:871
+#: includes/modules/form/module-form-action-term.php:1091
+msgid "Current Term"
+msgstr "Huidige term"
+
+#: includes/modules/form/module-form-action-term.php:709
+#: includes/modules/form/module-form-action-term.php:873
+#: includes/modules/form/module-form-action-term.php:1093
+msgid "Term Selector"
+msgstr "Term selector"
+
+#: includes/modules/form/module-form-action-term.php:708
+#: includes/modules/form/module-form-action-term.php:872
+#: includes/modules/form/module-form-action-term.php:1092
+msgid "Current Term Parent"
+msgstr "Huidige hoofdterm"
+
+#: includes/modules/form/module-form-action-post.php:989
+#: includes/modules/form/module-form-action-post.php:1537
+#: includes/modules/form/module-form-action-post.php:1725
+msgid "Post Selector"
+msgstr "Bericht selector"
+
+#: includes/modules/form/module-form-action-post.php:1320
+#: includes/modules/form/module-form-action-user.php:1472
+#: includes/modules/form/module-form-action-user.php:1958
+msgid "User Selector"
+msgstr "Gebruiker selector"
+
+#: includes/modules/form/module-form-action-post.php:1463
+msgid "Image Selector"
+msgstr "Afbeelding selector"
+
+#: includes/modules/form/module-form-action-redirect.php:17
+msgid "Redirect action"
+msgstr "Omleidingsactie"
+
+#: includes/modules/form/module-form-action-post.php:1434
+#: includes/modules/form/module-form-action-post.php:2038
+msgid "Post thumbnail"
+msgstr "Bericht thumbnail"
+
+#: includes/modules/form/module-form-action-post.php:1579
+#: includes/modules/form/module-form-action-post.php:2106
+msgid "Post terms"
+msgstr "Bericht termen"
+
+#: includes/modules/form/module-form-action-post.php:1289
+#: includes/modules/form/module-form-action-post.php:1970
+msgid "Post author"
+msgstr "Bericht auteur"
+
+#: includes/modules/form/module-form-fields.php:1944
+msgid "Group errors"
+msgstr "Groep fouten"
+
+#: includes/modules/form/module-form-action-post.php:17
+msgid "Post action"
+msgstr "Bericht actie"
+
+#: includes/modules/performance/module-performance-ui.php:108
+msgid "Status"
+msgstr "Status"
+
+#: includes/modules/performance/module-performance-ui.php:103
+msgid "Engine"
+msgstr "Engine"
+
+#: includes/modules/performance/module-performance-ui.php:85
+msgid "Production"
+msgstr "Productie"
+
+#: includes/modules/performance/module-performance-functions.php:651
+msgid "Ready"
+msgstr "Gereed"
+
+#: includes/acfe-deprecated-functions.php:114
+msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
+msgstr "%1$s is <strong>verouderd</strong> sinds versie %2$s met geen beschikbare alternatieven."
+
+#: includes/acfe-deprecated-functions.php:112
+msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr "%1$s is <strong>verouderd</strong> sinds versie %2$s. Gebruik in plaats daarvan %3$s."
+
+#: includes/modules/performance/module-performance-functions.php:746
+msgid "Ultra meta found"
+msgstr "Ultra meta gevonden"
+
+#: includes/modules/performance/module-performance-ui.php:84
+msgid "Test Drive"
+msgstr "Proefrit"
+
+#: includes/modules/performance/module-performance-ui.php:86
+msgid "Rollback"
+msgstr "Terugdraaien"
+
+#: includes/modules/performance/module-performance-ui.php:47
+msgid "Performance Mode"
+msgstr "Prestatiemodus"
+
+#: includes/modules/performance/module-performance-functions.php:747
+msgid "This meta will be converted to Hybrid engine upon save."
+msgstr "Deze meta wordt bij het opslaan geconverteerd naar Hybrid engine."
+
+#: includes/modules/performance/module-performance-functions.php:747
+msgid "Ultra engine '%s' meta found."
+msgstr "Ultra engine '%s' meta gevonden."
+
+#: includes/modules/performance/module-performance-functions.php:721
+msgid "This meta will be converted to Ultra engine upon save."
+msgstr "Deze meta wordt bij het opslaan geconverteerd naar Ultra engine."
+
+#: includes/modules/performance/module-performance-functions.php:670
+msgid "The '%s' meta will be created when object will be saved."
+msgstr "De '%s' meta wordt aangemaakt als het object wordt opgeslagen."
+
+#: includes/modules/performance/module-performance-functions.php:670
+msgid "Performance Mode is ready."
+msgstr "Prestatiemodus is gereed."
+
+#: includes/modules/performance/module-performance-functions.php:665
+msgid "The '%s' meta was found on this object and is effective."
+msgstr "De '%s' meta is gevonden op dit object en is effectief."
+
+#: includes/modules/performance/module-performance-functions.php:665
+msgid "Performance Mode is active."
+msgstr "Prestatiemodus is actief."
+
+#: includes/modules/performance/module-performance-functions.php:721
+msgid "Hybrid engine '%s' meta found."
+msgstr "Hybrid engine '%s' meta gevonden."
+
+#: includes/modules/performance/module-performance-functions.php:720
+msgid "Hybrid meta found"
+msgstr "Hybrid meta gevonden"
+
+#: includes/fields/field-file.php:138 includes/fields/field-image.php:108
+#: includes/modules/form/module-form-fields.php:1346
+msgid "Browser"
+msgstr "Browser"
+
+#: includes/fields/field-flexible-content.php:38 assets/js/acfe-input.js:3353
+msgid "Layout data has been copied to your clipboard."
+msgstr "Lay-out gegevens zijn gekopieerd naar je klembord."
+
+#: includes/fields/field-flexible-content.php:39 assets/js/acfe-input.js:3383
+msgid "Layouts data have been copied to your clipboard."
+msgstr "Lay-outs gegevens zijn gekopieerd naar je klembord."
+
+#: includes/fields/field-flexible-content.php:41 assets/js/acfe-input.js:3395
+msgid "Please paste previously copied layout data in the following field:"
+msgstr "Plak eerder gekopieerde lay-out gegevens in het volgende veld:"
+
+#: includes/assets.php:130 includes/fields/field-flexible-content.php:40
+#: assets/js/acfe-input.js:3354 assets/js/acfe-input.js:3384
+#: assets/js/acfe.js:2264
+msgid "Please copy the following data to your clipboard."
+msgstr "Kopieer de volgende gegevens naar je klembord."
+
+#: includes/modules/taxonomy/module-taxonomy.php:48
+msgid "1 taxonomy imported"
+msgstr "1 taxonomie geïmporteerd"
+
+#: includes/modules/post-type/module-post-type.php:48
+msgid "1 post type imported"
+msgstr "1 berichttype geïmporteerd"
+
+#: includes/modules/post-type/module-post-type.php:43
+msgid "1 post type exported"
+msgstr "1 berichttype geëxporteerd"
+
+#: includes/fields/field-code-editor.php:136
+msgid "HTML Entities"
+msgstr "HTML entiteiten"
+
+#: includes/modules/block-type/module-block-type.php:24
+#: includes/modules/block-type/module-block-type.php:27
+#: includes/modules/block-type/module-block-type.php:29
+msgid "Block Types"
+msgstr "Bloktypen"
+
+#: includes/modules/block-type/module-block-type.php:42
+msgid "1 block type exported"
+msgstr "1 bloktype geëxporteerd"
+
+#: includes/modules/block-type/module-block-type.php:47
+msgid "1 block type imported"
+msgstr "1 bloktype geïmporteerd"
+
+#: includes/modules/options-page/module-options-page.php:44
+msgid "1 options page exported"
+msgstr "1 instellingenpagina geëxporteerd"
+
+#: includes/modules/options-page/module-options-page.php:45
+msgid "%s options pages exported"
+msgstr "%s instellingenpagina's geëxporteerd"
+
+#: includes/modules/options-page/module-options-page.php:49
+msgid "1 options page imported"
+msgstr "1 instellingenpagina geïmporteerd"
+
+#: includes/fields/field-code-editor.php:137
+msgid "New Lines to &lt;br&gt;"
+msgstr "Nieuwe regels naar &lt;br&gt;"
+
+#: includes/modules/taxonomy/module-taxonomy.php:31
+msgid "Edit Taxonomy"
+msgstr "Taxonomie bewerken"
+
+#: includes/modules/taxonomy/module-taxonomy.php:32
+msgid "New Taxonomy"
+msgstr "Nieuwe taxonomie"
+
+#: includes/modules/form/module-form-action-term.php:811
+#: includes/modules/form/module-form-action-term.php:1206
+#: includes/modules/taxonomy/module-taxonomy-fields.php:33
+#: includes/modules/taxonomy/module-taxonomy.php:29
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: includes/modules/post-type/module-post-type.php:33
+msgid "Post Type Label"
+msgstr "Berichttype label"
+
+#: includes/modules/post-type/module-post-type.php:32
+msgid "New Post Type"
+msgstr "Nieuw berichttype"
+
+#: includes/modules/post-type/module-post-type.php:31
+msgid "Edit Post Type"
+msgstr "Berichttype bewerken"
+
+#: includes/modules/post-type/module-post-type.php:44
+msgid "%s post types exported"
+msgstr "%s berichttypen geëxporteerd"
+
+#: includes/modules/taxonomy/module-taxonomy.php:49
+msgid "%s taxonomies imported"
+msgstr "%s taxonomieën geïmporteerd"
+
+#: includes/modules/taxonomy/module-taxonomy.php:44
+msgid "%s taxonomies exported"
+msgstr "%s taxonomieën geëxporteerd"
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:1242
+msgid "Whether to include the taxonomy in the REST API. You will need to set this to true in order to use the taxonomy in your gutenberg metablock. Default: false."
+msgstr "Of de taxonomie moet worden opgenomen in de REST API. Je moet dit op true zetten om de taxonomie te kunnen gebruiken in je Gutenberg metablok. Standaard: false."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:373
+msgid "Whether to show the taxonomy in the quick/bulk edit panel. Default: value of <code>show_ui</code>."
+msgstr "Of de taxonomie moet worden weergegeven in het snel/bulk bewerkingspaneel. Standaard: waarde van <code>show_ui</code>."
+
+#: includes/modules/post-type/module-post-type-fields.php:1764
+msgid "Whether to expose this post type in the REST API. Must be true to enable the Gutenberg editor. Default: false."
+msgstr "Of dit berichttype moet worden weergegeven in de REST API. Moet true zijn om de Gutenberg editor in te schakelen. Standaard: false."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:169
+msgid "Whether the taxonomy is publicly queryable. Default: value of <code>public</code>"
+msgstr "Of de taxonomie openbaar opvraagbaar is. Standaard: waarde van <code>public</code>"
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:150
+msgid "Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users. The default settings of <code>publicly_queryable</code>, <code>show_ui</code>, and <code>show_in_nav_menus</code> are inherited from <code>public</code>. Default: true."
+msgstr "Of een taxonomie bedoeld is voor publiek gebruik via de beheerinterface of door front-end gebruikers. De standaardinstellingen van <code>publicly_queryable</code>, <code>show_ui</code> en <code>show_in_nav_menus</code> worden geërfd van <code>public</code>. Standaard: true."
+
+#: includes/modules/post-type/module-post-type-fields.php:1719
+msgid "Whether to use the internal default meta capability handling. Default: null.<br/><br/>If set it to false then standard admin role can't edit the posts types. Then the <code>edit_post</code> capability must be added to all roles to add or edit the posts types."
+msgstr "Of de interne standaardverwerking van metarechten moet worden gebruikt. Standaard: null.<br/><br/>Als je dit op false zet, kan de standaard beheerdersrol de berichttypes niet bewerken. Dan moet het recht <code>edit_post</code> worden toegevoegd aan alle rollen om de berichttypes toe te voegen of te bewerken."
+
+#: includes/modules/post-type/module-post-type-fields.php:430
+msgid "Whether to make this post type available in the WordPress admin bar. Default: value of <code>show_in_menu</code> argument"
+msgstr "Of dit berichttype beschikbaar moet zijn in de WordPress toolbar. Standaard: waarde van <code>show_in_menu</code> argument"
+
+#: includes/modules/post-type/module-post-type-fields.php:411
+msgid "Whether post_type is available for selection in navigation menus. Default: value of <code>public</code> argument"
+msgstr "Of post_type beschikbaar is voor selectie in navigatiemenu's. Standaard: waarde van <code>public</code> argument"
+
+#: includes/modules/post-type/module-post-type-fields.php:345
+msgid "Whether to generate a default UI for managing this post type in the admin. Default: value of <code>public</code> argument"
+msgstr "Of er een standaard UI moet worden gegenereerd voor het beheer van dit berichttype in de beheeromgeving. Standaard: waarde van <code>public</code> argument"
+
+#: includes/modules/post-type/module-post-type-fields.php:223
+msgid "Whether queries can be performed on the front end as part of <code>parse_request()</code>. Default: value of <code>public</code> argument."
+msgstr "Of query's kunnen worden uitgevoerd op de frontend als onderdeel van <code>parse_request()</code>. Standaard: waarde van <code>public</code> argument."
+
+#: includes/modules/post-type/module-post-type-fields.php:115
+msgid "Whether the post type is hierarchical (e.g. page). Allows Parent to be specified. The <code>supports</code> parameter should contain 'page-attributes' to show the parent select box on the editor page. Default false."
+msgstr "Of het berichttype hiërarchisch is (bijv. pagina). Staat toe dat hoofd wordt opgegeven. De <code>supports</code> parameter moet 'page-attributes' bevatten om de hoofd selectiebox op de editorpagina weer te geven. Standaard false."
+
+#: includes/modules/post-type/module-post-type-fields.php:204
+msgid "Whether to exclude posts with this post type from front end search results. Default: value of the opposite of <code>public</code> argument"
+msgstr "Of berichten met dit berichttype moeten worden uitgesloten van de zoekresultaten op de front-end. Standaard: waarde van het tegenovergestelde van het <code>public</code> argument"
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:262
+msgid "Whether terms in this taxonomy should be sorted in the order they are provided to <code>wp_set_object_terms()</code>. Default null which equates to false."
+msgstr "Of termen in deze taxonomie gesorteerd moeten worden in de rangschikking waarin ze worden aangeboden aan <code>wp_set_object_terms()</code>. Standaard null, wat gelijk is aan false."
+
+#: includes/modules/post-type/module-post-type-fields.php:261
+msgid "Whether to delete posts of this type when deleting a user.<br/><br/>If true, posts of this type belonging to the user will be moved to trash when then user is deleted.<br/><br/>If false, posts of this type belonging to the user will not be trashed or deleted.<br/><br/>If not set (the default), posts are trashed if <code>post_type_supports('author')</code>. Otherwise posts are not trashed or deleted. Default: null."
+msgstr "Of berichten van dit type worden verwijderd als een gebruiker wordt verwijderd.<br/><br/>Wanneer true, worden berichten van dit type die bij de gebruiker horen naar de prullenbak verplaatst als de gebruiker wordt verwijderd.<br/><br/>Wanneer false, worden berichten van dit type die bij de gebruiker horen niet weggegooid of verwijderd.<br/><br/>Wannneer niet ingesteld (de standaardinstelling), worden berichten weggegooid wanneer <code>post_type_supports('author')</code>. Anders worden berichten niet weggegooid of verwijderd. Standaard: null."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:297
+msgid "Whether to generate and allow a UI for managing terms in this taxonomy in the admin. Default: value of <code>public</code>."
+msgstr "Of een UI voor het beheren van termen in deze taxonomie moet worden gegenereerd en toegestaan in beheer. Standaard: waarde <code>public</code>."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:316
+msgid "Whether to show the taxonomy in the admin menu. If true, the taxonomy is shown as a submenu of the object type menu. If false, no menu is shown. <code>show_ui</code> must be true. Default: value of <code>show_ui</code>."
+msgstr "Of de taxonomie moet worden weergegeven in het beheer menu. Wanneer true, wordt de taxonomie getoond als een submenu van het object type menu. Wanneer false, wordt er geen menu getoond. <code>show_ui</code> moet true zijn. Standaard: waarde van <code>show_ui</code>."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:392
+msgid "Whether to display a column for the taxonomy on its post type listing screens. Default: false."
+msgstr "Of er een kolom voor de taxonomie moet worden weergegeven op de vermeldingschermen van het berichttype. Standaard: false."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:354
+msgid "Whether to list the taxonomy in the Tag Cloud Widget controls. Default: value of <code>show_ui</code>."
+msgstr "Of de taxonomie moet worden weergegeven in de tag cloud widget besturingen. Standaard: waarde van <code>show_ui</code>."
+
+#: includes/modules/post-type/module-post-type-fields.php:484
+msgid "Enables post type archives. Default: false"
+msgstr "Schakelt archieven van berichttypes in. Standaard: false"
+
+#: includes/modules/post-type/module-post-type-fields.php:242
+msgid "Can this post_type be exported. Default: true."
+msgstr "Of dit post_type kan worden geëxporteerd. Standaard: true."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:655
+msgid "Allowing permalinks to be prepended with front base. Default: true."
+msgstr "Staat toe dat permalinks worden voorgevoegd met de front base. Standaard: true."
+
+#: includes/modules/post-type/module-post-type-fields.php:871
+msgid "Should the permalink structure provide for pagination. Defaults to true."
+msgstr "Of de permalink structuur paginering moet bieden. Standaard is true."
+
+#: includes/modules/taxonomy/module-taxonomy.php:33
+msgid "Taxonomy Label"
+msgstr "Taxonomie label"
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:96
+msgid "Include a description of the taxonomy"
+msgstr "Een beschrijving van de taxonomie opnemen"
+
+#: includes/modules/post-type/module-post-type-fields.php:917
+msgid "Add an \"Archive\" Options Page as submenu of the post type."
+msgstr "Voeg een \"Archief\" optiepagina toe als submenu van het berichttype."
+
+#: includes/modules/post-type/module-post-type-fields.php:531
+#: includes/modules/taxonomy/module-taxonomy-fields.php:446
+msgid "Number of posts to display in the archive page. Default: 10"
+msgstr "Aantal berichten om weer te geven op de archiefpagina. Standaard: 10"
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:1261
+msgid "To change the base url of REST API route. Default: <code>name</code>."
+msgstr "Om de basis URL van de REST API route te wijzigen. Standaard: <code>name</code>."
+
+#: includes/modules/post-type/module-post-type-fields.php:622
+#: includes/modules/taxonomy/module-taxonomy-fields.php:513
+msgid "Custom field used for the <code>orderby</code> parameter in the archive page"
+msgstr "Aangepast veld gebruikt voor de <code>orderby</code> parameter in de archiefpagina"
+
+#: includes/modules/post-type/module-post-type-fields.php:560
+msgid "Sort retrieved posts by parameter in the archive page. Default: date (<code>post_date</code>)."
+msgstr "Sorteer opgehaalde berichten op parameter in de archiefpagina. Standaard: datum (<code>post_date</code>)."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:335
+msgid "Makes this taxonomy available for selection in navigation menus. Default: value of <code>public</code>."
+msgstr "Maakt deze taxonomie beschikbaar voor selectie in navigatiemenu's. Standaard: waarde van <code>public</code>."
+
+#: includes/modules/post-type/module-post-type-fields.php:711
+msgid "Triggers the handling of rewrites for this post type. To prevent rewrites, set to false. Default: true and use <code>name</code> as slug"
+msgstr "Triggert de afhandeling van herschrijvingen voor dit berichttype. Stel in op false om herschrijven te voorkomen. Standaard: true en gebruik <code>name</code> als slug"
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:627
+msgid "Used as pretty permalink text (i.e. <code>/tag/</code>). Default: value of <code>name</code>"
+msgstr "Wordt gebruikt als mooie permalink tekst (bijv. <code>/tag/</code>). Standaard: waarde van <code>name</code>"
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:467
+msgid "Sort retrieved posts by parameter in the archive page. Defaults: date (<code>post_date</code>)."
+msgstr "Sorteer opgehaalde berichten op parameter in de archiefpagina. Standaard: datum (<code>post_date</code>)."
+
+#: includes/modules/post-type/module-post-type-fields.php:956
+msgid "Sort retrieved posts by parameter in the admin list screen. Default: date (<code>post_date</code>)."
+msgstr "Sorteer opgehaalde berichten op parameter in het beheerlijstscherm. Standaard: datum (<code>post_date</code>)."
+
+#: includes/modules/post-type/module-post-type-fields.php:383
+msgid "If an existing top level page such as <code>tools.php</code> or <code>edit.php?post_type=page</code>, the post type will be placed as a sub menu of that."
+msgstr "Als er een bestaande pagina op het hoogste niveau is, zoals <code>tools.php</code> of <code>edit.php?post_type=page</code>, dan wordt het berichttype als een submenu daarvan geplaatst."
+
+#: includes/modules/post-type/module-post-type-fields.php:185
+msgid "Controls how the type is visible to authors (<code>show_in_nav_menus</code>, <code>show_ui</code>) and readers (<code>exclude_from_search</code>, <code>publicly_queryable</code>). Default: false."
+msgstr "Bepaalt hoe het type zichtbaar is voor auteurs (<code>show_in_nav_menus</code>, <code>show_ui</code>) en lezers (<code>exclude_from_search</code>, <code>publicly_queryable</code>). Standaard: false."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:188
+msgid "A function name that will be called when the count of an associated <code>object_type</code>, such as post, is updated. Works much like a hook. Default: None."
+msgstr "Een functienaam die wordt aangeroepen wanneer de telling van een geassocieerd <code>object_type</code>, zoals bericht, wordt geüpdatet. Werkt als een hook. Standaard: geen."
+
+#: includes/modules/post-type/module-post-type-fields.php:649
+#: includes/modules/taxonomy/module-taxonomy-fields.php:532
+msgid "Custom field type (NUMERIC, BINARY, CHAR, DATE, DATETIME, DECIMAL, SIGNED, TIME, UNSIGNED) used for the <code>orderby</code> parameter in the archive page"
+msgstr "Aangepast veldtype (NUMERIC, BINARY, CHAR, DATE, DATETIME, DECIMAL, SIGNED, TIME, UNSIGNED) gebruikt voor de <code>orderby</code> parameter in de archiefpagina"
+
+#: includes/modules/post-type/module-post-type.php:45
+#: includes/modules/taxonomy/module-taxonomy.php:45
+msgid "It is recommended to include this code within the <code>init</code> hook (<a href=\"%s\" target=\"blank\">see documentation</a>)."
+msgstr "Het wordt aanbevolen om deze code op te nemen in de <code>init</code> hook (<a href=\"%s\" target=\"blank\">zie documentatie</a> )."
+
+#: includes/modules/post-type/module-post-type-fields.php:364
+msgid "Where to show the post type in the admin menu. <code>show_ui</code> must be true. Default: value of <code>show_ui</code> argument"
+msgstr "Waar het berichttype moet worden weergegeven in het beheermenu. <code>show_ui</code> moet true zijn. Standaard: waarde van <code>show_ui</code> argument"
+
+#: includes/modules/post-type/module-post-type-fields.php:1802
+msgid "An optional custom controller to use instead of <a href=\"https://developer.wordpress.org/reference/classes/wp_rest_posts_controller/\" target=\"_blank\">WP_REST_Posts_Controller</a>. Must be a subclass of <a href=\"https://developer.wordpress.org/reference/classes/wp_rest_controller/\" target=\"_blank\">WP_REST_Controller</a>. Default: <a href=\"https://developer.wordpress.org/reference/classes/wp_rest_posts_controller/\" target=\"_blank\">WP_REST_Posts_Controller</a>."
+msgstr "Een optionele aangepaste controller om te gebruiken in plaats van <a href=\"https://developer.wordpress.org/reference/classes/wp_rest_posts_controller/\" target=\"_blank\">WP_REST_Posts_Controller</a>. Moet een subklasse zijn van <a href=\"https://developer.wordpress.org/reference/classes/wp_rest_controller/\" target=\"_blank\">WP_REST_Controller</a>. Standaard: <a href=\"https://developer.wordpress.org/reference/classes/wp_rest_posts_controller/\" target=\"_blank\">WP_REST_Posts_Controller</a>."
+
+#: includes/modules/post-type/module-post-type-fields.php:1699
+msgid "An array of the capabilities for this post type. Specify capabilities like this:<br /><br />edit_post : edit_book<br />read_post : read_book<br />delete_post : delete_book<br />edit_posts : edit_books<br />publish_posts : publish_books<br />etc..."
+msgstr "Een array met de rechten voor dit berichttype. Geef de rechten als volgt op:<br /><br />edit_post : edit_book<br />read_post : read_book<br />delete_post : delete_book<br />edit_posts : edit_books<br />publish_posts : publish_books<br />etc…"
+
+#: includes/modules/post-type/module-post-type-fields.php:134
+msgid "Core feature(s) the post type supports. Serves as an alias for calling <a href=\"https://developer.wordpress.org/reference/functions/add_post_type_support/\" target=\"_blank\">add_post_type_support()</a> directly. Default is an array containing 'title' and 'editor'."
+msgstr "Core functie(s) die het berichttype ondersteunt. Dient als alias voor het direct aanroepen van <a href=\"https://developer.wordpress.org/reference/functions/add_post_type_support/\" target=\"_blank\">add_post_type_support()</a>. Standaard is dit een array met 'title' en 'editor'."
+
+#: includes/modules/post-type/module-post-type-fields.php:167
+msgid "An array of taxonomy identifiers that will be registered for the post type. Taxonomies can be registered later with <a href=\"https://developer.wordpress.org/reference/functions/register_taxonomy/\" target=\"_blank\">register_taxonomy()</a> or <a href=\"https://developer.wordpress.org/reference/functions/register_taxonomy_for_object_type/\" target=\"_blank\">register_taxonomy_for_object_type()</a>."
+msgstr "Een array van taxonomie identifiers die zullen worden geregistreerd voor het berichttype. Taxonomieën kunnen later worden geregistreerd met <a href=\"https://developer.wordpress.org/reference/functions/register_taxonomy/\" target=\"_blank\">register_taxonomy()</a> of <a href=\"https://developer.wordpress.org/reference/functions/register_taxonomy_for_object_type/\" target=\"_blank\">register_taxonomy_for_object_type()</a>."
+
+#: includes/modules/post-type/module-post-type-fields.php:843
+msgid "Should a feed permalink structure be built for this post type. Defaults to <code>has_archive</code> value."
+msgstr "Moet er een feed permalink structuur worden gebouwd voor dit berichttype. Wordt standaard ingesteld op de <code>has_archive</code> waarde."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:769
+msgid "Designates the ascending or descending order of the <code>orderby</code> parameter in the admin list screen. Default: ASC."
+msgstr "Geeft de oplopende of aflopende volgorde aan van de <code>orderby</code> parameter in het beheer lijstscherm. Standaard: ASC."
+
+#: includes/modules/post-type/module-post-type-fields.php:975
+msgid "Designates the ascending or descending order of the <code>orderby</code> parameter in the admin list screen. Default: DESC."
+msgstr "Geeft de oplopende of aflopende volgorde aan van de <code>orderby</code> parameter in het beheer lijstscherm. Standaard: DESC."
+
+#: includes/modules/post-type/module-post-type-fields.php:1021
+#: includes/modules/taxonomy/module-taxonomy-fields.php:815
+msgid "Custom field type (NUMERIC, BINARY, CHAR, DATE, DATETIME, DECIMAL, SIGNED, TIME, UNSIGNED) used for the <code>orderby</code> parameter in the admin list screen"
+msgstr "Aangepast veldtype (NUMERIC, BINARY, CHAR, DATE, DATETIME, DECIMAL, SIGNED, TIME, UNSIGNED) gebruikt voor de <code>orderby</code> parameter in het beheer lijstscherm"
+
+#: includes/modules/post-type/module-post-type-fields.php:815
+msgid "Should the permalink structure be prepended with the front base. (example: if your permalink structure is <code>/blog/</code>, then your links will be: false-><code>/news/</code>, true-><code>/blog/news/</code>). Defaults to true."
+msgstr "Moet de permalink structuur worden voorafgegaan door de front base. (voorbeeld: als je permalink structuur <code>/blog/</code> is, dan zullen je links als volgt zijn: false-><code>/news/</code>, true-><code>/blog/news/</code>). Wordt standaard ingesteld op true."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:207
+msgid "Provide a callback function for the meta box display. If not set, <a href=\"https://developer.wordpress.org/reference/functions/post_categories_meta_box/\" target=\"_blank\">post_categories_meta_box()</a> is used for hierarchical taxonomies, and <a href=\"https://developer.wordpress.org/reference/functions/post_tags_meta_box/\" target=\"_blank\">post_tags_meta_box()</a> is used for non-hierarchical. If false, no meta box is shown. Default: null."
+msgstr "Geef een callback functie voor de weergave van het meta box. Als deze niet is ingesteld, wordt <a href=\"https://developer.wordpress.org/reference/functions/post_categories_meta_box/\" target=\"_blank\">post_categories_meta_box()</a> gebruikt voor hiërarchische taxonomieën en <a href=\"https://developer.wordpress.org/reference/functions/post_tags_meta_box/\" target=\"_blank\">post_tags_meta_box()</a> voor niet-hiërarchische. Indien false, wordt er geen meta box getoond. Standaard: null."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:850
+msgid "An array of labels for this taxonomy. By default tag labels are used for non-hierarchical types and category labels for hierarchical ones.<br /><br />Default: if empty, <code>name</code> is set to <code>label</code> value, and <code>singular_name</code> is set to <code>name</code> value."
+msgstr "Een array van labels voor deze taxonomie. Standaard worden tag labels gebruikt voor niet-hiërarchische typen en categorielabels voor hiërarchische typen.<br /><br />Standaard: indien leeg, wordt <code>name</code> ingesteld op <code>label</code> waarde en <code>singular_name</code> wordt ingesteld op <code>name</code> waarde."
+
+#: includes/modules/post-type/module-post-type-fields.php:787
+msgid "Customize the permalink structure slug. Defaults to the <code>name</code> value. Should be translatable."
+msgstr "Pas de slug van de permalink structuur aan. Wordt standaard ingesteld op de <code>name</code>. Moet vertaalbaar zijn."
+
+#: includes/modules/post-type/module-post-type-fields.php:1002
+#: includes/modules/taxonomy/module-taxonomy-fields.php:796
+msgid "Custom field used for the <code>orderby</code> parameter in the admin list screen"
+msgstr "Aangepast veld dat wordt gebruikt voor de parameter <code>orderby</code> in het beheer lijstscherm"
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:729
+msgid "Number of terms to display on the admin list screen"
+msgstr "Aantal termen dat moet worden weergegeven op het beheer lijstscherm"
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:750
+msgid "Sort retrieved terms by parameter in the admin list screen. Accepts term fields <code>name</code>, <code>slug</code>, <code>term_group</code>, <code>term_id</code>, <code>id</code>, <code>description</code>, <code>parent</code>, <code>count</code> (for term taxonomy count), or <code>none</code> to omit the ORDER BY clause"
+msgstr "Sorteer opgehaalde termen op parameter in het beheer lijstscherm. Accepteert term velden <code>name</code>, <code>slug</code>, <code>term_group</code>, <code>term_id</code>, <code>id</code>, <code>description</code>, <code>parent</code>, <code>count</code> (voor term taxonomie telling), of <code>none</code> om de ORDER BY clausule weg te laten"
+
+#: includes/modules/post-type/module-post-type-fields.php:935
+msgid "Number of posts to display on the admin list screen. Default: 10"
+msgstr "Aantal berichten dat moet worden weergegeven op het beheer lijstscherm. Standaard: 10"
+
+#: includes/modules/post-type/module-post-type-fields.php:1783
+msgid "The base slug that this post type will use when accessed using the REST API: Default: <code>name</code>."
+msgstr "De basis slug die dit berichttype zal gebruiken bij toegang via de REST API. Standaard: <code>name</code>."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:683
+msgid "Either hierarchical rewrite tag or not. Default: false."
+msgstr "Hiërarchische herschrijf tag of niet. Standaard: false."
+
+#: includes/modules/post-type/module-post-type-fields.php:503
+msgid "Will use <code>name</code> as archive slug by default."
+msgstr "Zal standaard <code>name</code> gebruiken als archief slug."
+
+#: includes/modules/post-type/module-post-type-fields.php:587
+msgid "Designates the ascending or descending order of the <code>orderby</code> parameter in the archive page. Default: DESC."
+msgstr "Geeft de oplopende of aflopende rangschikking aan van de <code>orderby</code> parameter in de archiefpagina. Standaard: DESC."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:486
+msgid "Designates the ascending or descending order of the <code>orderby</code> parameter in the archive page. Defaults: DESC."
+msgstr "Geeft de oplopende of aflopende rangschikking aan van de <code>orderby</code> parameter in de archiefpagina. Standaardwaarden: DESC."
+
+#: includes/modules/post-type/module-post-type-fields.php:305
+msgid "The position in the menu order the post type should appear. <code>show_in_menu</code> must be true. Default: null – defaults to below Comments."
+msgstr "De positie in de menu rangschikking waar het berichttype moet verschijnen. <code>show_in_menu</code> moet true zijn. Standaard: null - staat standaard onder reacties."
+
+#: includes/modules/taxonomy/module-taxonomy-fields.php:1206
+msgid "An array of the capabilities for this taxonomy:<br /><br />manage_terms : edit_posts<br />edit_terms : edit_posts<br />delete_terms : edit_posts<br />assign_terms : edit_posts"
+msgstr "Een array met de rechten voor deze taxonomie:<br /><br />manage_terms : edit_posts<br />edit_terms : edit_posts<br />delete_terms : edit_posts<br />assign_terms : edit_posts"
+
+#: includes/modules/post-type/module-post-type-fields.php:33
+#: includes/modules/post-type/module-post-type.php:29
+msgid "Post Type"
+msgstr "Berichttype"
+
+#: includes/modules/post-type/module-post-type-features.php:308
+msgctxt "publish box time format"
+msgid "H:i"
+msgstr "H:i"
+
+#: includes/modules/post-type/module-post-type-features.php:291
+msgid "View post"
+msgstr "Bericht bekijken"
+
+#: includes/module.php:1068
+msgid "Reset"
+msgstr "Resetten"
+
+#: includes/module.php:424
+msgid "copy"
+msgstr "kopiëren"
+
+#: includes/module-post.php:151 includes/module-posts.php:233
+msgid "Export"
+msgstr "Exporteren"
+
+#: includes/module-post.php:254 includes/module-post.php:255
+#: includes/module-post.php:257
+msgid "%s updated."
+msgstr "%s geüpdatet."
+
+#: includes/module-post.php:256
+msgid "%s deleted."
+msgstr "%s verwijderd."
+
+#: includes/module-post.php:259
+msgid "%s published."
+msgstr "%s gepubliceerd."
+
+#: includes/module-post.php:260
+msgid "%s saved."
+msgstr "%s opgeslagen."
+
+#: includes/module-post.php:261
+msgid "%s submitted."
+msgstr "%s verzonden."
+
+#: includes/module-post.php:262
+msgid "%s scheduled."
+msgstr "%s gepland."
+
+#: includes/module-post.php:263
+msgid "%s draft updated."
+msgstr "%s concept geüpdatet."
+
+#: includes/modules/options-page/module-options-page.php:80
+msgid "Options Updated"
+msgstr "Opties geüpdatet"
+
+#: includes/modules/post-type/module-post-type-features.php:307
+msgctxt "publish box date format"
+msgid "M j, Y"
+msgstr "M j, Y"
+
+#: includes/modules/post-type/module-post-type-features.php:306
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: includes/modules/post-type/module-post-type-features.php:292
+msgid "Preview post"
+msgstr "Bericht bekijken"
+
+#: includes/module-acf.php:91 includes/module-post.php:130
+#: includes/modules/form/module-form.php:721
+msgid "%s value is required"
+msgstr "%s waarde is vereist"
+
+#: includes/modules/options-page/module-options-page.php:34
+msgid "Options Page Title"
+msgstr "Instellingenpagina titel"
+
+#: includes/modules/options-page/module-options-page.php:33
+msgid "New Options Page"
+msgstr "Nieuwe instellingenpagina"
+
+#: includes/modules/options-page/module-options-page.php:32
+msgid "Edit Options Page"
+msgstr "Instellingenpagina bewerken"
+
+#: includes/modules/options-page/module-options-page.php:25
+#: includes/modules/options-page/module-options-page.php:29
+#: includes/modules/options-page/module-options-page.php:31
+msgid "Options Pages"
+msgstr "Instellingenpagina"
+
+#: includes/modules/block-type/module-block-type.php:31
+msgid "New Block Type"
+msgstr "Nieuw bloktype"
+
+#: includes/modules/block-type/module-block-type.php:32
+msgid "Block Type Title"
+msgstr "Bloktype titel"
+
+#: includes/modules/block-type/module-block-type.php:43
+msgid "%s block types exported"
+msgstr "%s bloktypen geëxporteerd"
+
+#: includes/modules/block-type/module-block-type.php:30
+msgid "Edit Block Type"
+msgstr "Bloktype bewerken"
+
+#: includes/modules/block-type/module-block-type-fields.php:96
+msgid "This is a short description for your block."
+msgstr "Dit is een korte beschrijving van je blok."
+
+#: includes/modules/options-page/module-options-page-fields.php:217
+msgid "Whether to load the option (values saved from this options page) when WordPress starts up. Defaults to false."
+msgstr "Of de optie (opgeslagen waarden van deze optiepagina) geladen moet worden als WordPress opstart. Staat standaard op false."
+
+#: includes/admin/tools/module-export.php:166
+msgid "You can copy and paste the following code to your theme's <code>functions.php</code> file or include it within an external file."
+msgstr "Je kunt de volgende code kopiëren en plakken in het <code>functions.php</code> bestand van je thema of het opnemen in een extern bestand."
+
+#: includes/modules/block-type/module-block-type-fields.php:77
+msgid "A unique name that identifies the block (without namespace).<br />Note: A block name can only contain lowercase alphanumeric characters and dashes, and must begin with a letter."
+msgstr "Een unieke naam die het blok identificeert (zonder namespace).<br />Let op: een bloknaam kan alleen kleine alfanumerieke tekens en streepjes bevatten, en moet beginnen met een letter."
+
+#: includes/modules/block-type/module-block-type-fields.php:115
+msgid "Blocks are grouped into categories to help users browse and discover them. The core provided categories are [ common | formatting | layout | widgets | embed ]. Plugins and Themes can also register custom block categories.<br /><br />Plugins and Themes can also register <a href=\"https://developer.wordpress.org/block-editor/reference-guides/filters/block-filters/#managing-block-categories\" target=\"_blank\">custom block categories</a>."
+msgstr "Blokken zijn gegroepeerd in categorieën om gebruikers te helpen ze te doorzoeken en te ontdekken. De core categorieën zijn [ algemeen | opmaak | lay-out | widgets | insluiten ]. Plugins en thema's kunnen ook aangepaste blokcategorieën registreren.<br /><br />Plugins en thema's kunnen ook <a href=\"https://developer.wordpress.org/block-editor/reference-guides/filters/block-filters/#managing-block-categories\" target=\"_blank\">aangepaste blok categorieën</a> registreren."
+
+#: includes/modules/block-type/module-block-type-fields.php:134
+msgid "An array of search terms to help user discover the block while searching.<br />One line for each keyword. ie:<br /><br />quote<br />mention<br />cite"
+msgstr "Een array van zoektermen om het blok te helpen ontdekken tijdens het zoeken.<br />Eén regel voor elk keywoord. bijvoorbeeld:<br /><br />citaat<br />vermelding<br />citeer"
+
+#: includes/modules/block-type/module-block-type-fields.php:154
+msgid "An array of post types to restrict this block type to."
+msgstr "Een array van berichttypes om dit bloktype tot te beperken."
+
+#: includes/modules/block-type/module-block-type-fields.php:196
+msgid "The default block alignment. Available settings are \"left\", \"center\", \"right\", \"wide\" and \"full\". Defaults to an empty string."
+msgstr "De standaard blokuitlijning. Beschikbare instellingen zijn \"links\", \"midden\", \"rechts\", \"breed\" en \"volledig\". Standaard ingesteld op een lege string."
+
+#: includes/modules/block-type/module-block-type-fields.php:225
+msgid "The default block text alignment (see supports setting for more info). Available settings are \"left\", \"center\" and \"right\". Defaults to the current language's text alignment."
+msgstr "De standaard blok tekstuitlijning (zie ondersteunende instellingen voor meer informatie). Beschikbare instellingen zijn \"links\", \"midden\" en \"rechts\". Standaard ingesteld op de tekstuitlijning van de huidige taal."
+
+#: includes/modules/block-type/module-block-type-fields.php:170
+msgid "The display mode for your block. Available settings are \"auto\", \"preview\" and \"edit\". Defaults to \"preview\".<br /><br /><strong>Preview</strong>: Preview is always shown. Edit form appears in sidebar when block is selected.<br /><strong>Auto</strong>: Preview is shown by default but changes to edit form when block is selected.<br /><strong>Edit</strong>: Edit form is always shown.<br /><br />Note. When in \"preview\" or \"edit\" modes, an icon will appear in the block toolbar to toggle between modes."
+msgstr "De weergavemodus voor je blok. Beschikbare instellingen zijn \"auto\", \"voorbeeld\" en \"bewerken\". Standaard ingesteld op \"voorbeeld\".<br /><br /><strong>Voorbeeld</strong>: Het voorbeeld wordt altijd weergegeven. Het bewerkingsformulier verschijnt in de zijbalk wanneer het blok is geselecteerd.<br /><strong>Auto</strong>: Het voorbeeld wordt standaard weergegeven, maar verandert in het bewerkingsformulier wanneer het blok is geselecteerd.<br /><strong>Bewerken</strong>: Het bewerkingsformulier wordt altijd weergegeven.<br /><br />Let op. Wanneer je in de modi \"voorbeeld\" of \"bewerken\" bent, verschijnt er een pictogram in de blok toolbar om tussen de modi te togglen"
+
+#: includes/modules/block-type/module-block-type-fields.php:252
+msgid "The default block content alignment (see supports setting for more info). Available settings are \"top\", \"center\" and \"bottom\".<br /><br />When utilising the \"Matrix\" control type, additional settings are available to specify all 9 positions from “top left” to “bottom right”. Defaults to \"top\"."
+msgstr "De standaard blok inhouds uitlijning (zie ondersteuningsinstellingen voor meer informatie). Beschikbare instellingen zijn \"boven\", \"midden\" en \"onder\".<br /><br />Bij het gebruik van het \"Matrix\" controle type, zijn er aanvullende instellingen beschikbaar om alle 9 posities van \"linksboven\" tot \"rechtsonder\" te specificeren. Standaard ingesteld op \"boven\"."
+
+#: includes/modules/block-type/module-block-type-fields.php:467
+msgid "This property allows the block to be added multiple times. Defaults to true."
+msgstr "Deze eigenschap geeft de mogelijkheid om het blok meerdere keren toe te voegen. Standaard is true."
+
+#: includes/modules/block-type/module-block-type-fields.php:447
+msgid "This property allows the user to toggle between edit and preview modes via a button. Defaults to true."
+msgstr "Met deze eigenschap kan de gebruiker via een knop togglen tussen de bewerkings- en voorbeeldmodus. Standaard is true."
+
+#: includes/modules/block-type/module-block-type-fields.php:606
+msgid "Specifying a dashicon for the block"
+msgstr "Specificeert een dashicon voor het blok"
+
+#: includes/modules/options-page/module-options-page-fields.php:236
+msgid "The update button text."
+msgstr "De tekst van de updateknop."
+
+#: includes/modules/block-type/module-block-type.php:236
+#: includes/modules/block-type/module-block-type.php:241
+msgid "This block type already exists"
+msgstr "Dit bloktype bestaat al"
+
+#: includes/modules/block-type/module-block-type-fields.php:289
+msgid "Enable Anchor attribute. Defaults to false"
+msgstr "Anker attribuut inschakelen. Standaard op false"
+
+#: includes/modules/options-page/module-options-page-fields.php:255
+msgid "The message shown above the form on submit."
+msgstr "Het bericht dat bij verzenden boven het formulier wordt weergegeven."
+
+#: includes/modules/post-type/module-post-type-fields.php:96
+msgid "A short descriptive summary of what the post type is."
+msgstr "Een korte beschrijvende samenvatting van wat het berichttype is."
+
+#: includes/modules/options-page/module-options-page-fields.php:198
+msgid "The <code>$post_id</code> to save/load data to/from. Can be set to a numeric post ID (123), or a string ('user_2'). Defaults to 'options'."
+msgstr "De <code>$post_id</code> om gegevens van/naar op te slaan of laden. Kan worden ingesteld op een numerieke bericht ID (123) of een string ('user_2'). Staat standaard op 'options'."
+
+#: includes/modules/block-type/module-block-type.php:44
+#: includes/modules/options-page/module-options-page.php:46
+msgid "It is recommended to include this code within the <code>acf/init</code> hook (<a href=\"%s\" target=\"blank\">see documentation</a>)."
+msgstr "Het wordt aanbevolen om deze code op te nemen in de <code>acf/init</code> hook (<a href=\"%s\" target=\"blank\">zie documentatie</a> )."
+
+#: includes/modules/options-page/module-options-page-fields.php:103
+msgid "The capability required for this menu to be displayed to the user. Defaults to edit_posts.<br /><br />Read more about capability here: <a href=\"https://wordpress.org/support/article/roles-and-capabilities/\" target=\"_blank\">https://wordpress.org/support/article/roles-and-capabilities/</a>"
+msgstr "De rechten die nodig zijn om dit menu weer te geven aan de gebruiker. Standaard ingesteld op edit_posts.<br /><br />Lees hier meer over de rechten: <a href=\"https://wordpress.org/support/article/roles-and-capabilities/\" target=\"_blank\">https://wordpress.org/support/article/roles-and-capabilities/</a>"
+
+#: includes/modules/post-type/module-post-type-fields.php:77
+msgid "Post type key. Must not exceed 20 characters and may only contain lowercase alphanumeric characters, dashes, and underscores. See <a href=\"https://developer.wordpress.org/reference/functions/sanitize_key/\" target=\"_blank\">sanitize_key()</a>."
+msgstr "Berichttype sleutel. Mag niet langer zijn dan 20 tekens en mag alleen kleine alfanumerieke tekens, streepjes en underscores bevatten. Zie <a href=\"https://developer.wordpress.org/reference/functions/sanitize_key/\" target=\"_blank\">sanitize_key()</a>."
+
+#: includes/modules/options-page/module-options-page-fields.php:122
+msgid "The position in the menu order this menu should appear. Defaults to bottom of utility menu items.<br /><br />WARNING: if two menu items use the same position attribute, one of the items may be overwritten so that only one item displays!<br />Risk of conflict can be reduced by using decimal instead of integer values, e.g. 63.3 instead of 63."
+msgstr "De positie in de menuvolgorde waar dit menu moet verschijnen. Staat standaard onderaan gereedschap menu-items.<br /><br />WAARSCHUWING: als twee menu-items hetzelfde positie attribuut gebruiken, kan een van de items worden overschreven zodat slechts één item wordt weergegeven!<br />Risico op conflicten kan worden verminderd door decimale waarden te gebruiken in plaats van gehele waarden, bijvoorbeeld 63,3 in plaats van 63."
+
+#: includes/modules/options-page/module-options-page-fields.php:160
+msgid "The icon class for this menu. Defaults to default WordPress gear.<br /><br />Read more about dashicons here: <a href=\"https://developer.wordpress.org/resource/dashicons/\" target=\"_blank\">https://developer.wordpress.org/resource/dashicons/</a>"
+msgstr "De pictogram klasse voor dit menu. Standaard ingesteld op het standaard WordPress tandwiel.<br /><br />Lees hier meer over dashicons: <a href=\"https://developer.wordpress.org/resource/dashicons/\" target=\"_blank\">https://developer.wordpress.org/resource/dashicons/</a>"
+
+#: includes/fields/field-advanced-link.php:724
+msgid "Archives"
+msgstr "Archieven"
+
+#: includes/field-groups/field-group-instruction-placement.php:39
+#: includes/modules/form/module-form-fields.php:1942
+msgid "Above fields"
+msgstr "Boven velden"
+
+#: includes/field-groups/field-group-instruction-placement.php:40
+#: includes/modules/form/module-form-fields.php:1580
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: acf-extended.php:448
+msgid "An another version of ACF Extended has been detected. Please activate only one version."
+msgstr "Er is een andere versie van ACF Extended gedetecteerd. Zorg ervoor dat er maar één versie geactiveerd is."
+
+#: acf-extended.php:450
+msgid "ACF Extended Pro has been detected. Please activate only one version."
+msgstr "ACF Extended Pro is gedetecteerd. Zorg ervoor dat er maar één versie geactiveerd is."
+
+#: includes/modules/dev/module-dev.php:445
+msgid "Field Type"
+msgstr "Veldtype"
+
+#: includes/modules/dev/module-dev.php:446
+msgid "Field Group"
+msgstr "Veldgroep"
+
+#: includes/modules/dev/module-dev.php:654
+#: includes/modules/dev/module-dev.php:655
+msgid "Undefined"
+msgstr "Ongedefinieerd"
+
+#: includes/modules/dev/module-dev.php:320
+msgid "WP Custom Fields"
+msgstr "WP aangepaste velden"
+
+#: includes/modules/dev/module-dev.php:320
+msgid "WP Options Meta"
+msgstr "WP opties meta"
+
+#: includes/modules/dev/module-dev.php:343
+msgid "ACF Options Meta"
+msgstr "ACF opties meta"
+
+#: includes/modules/dev/module-dev.php:343
+msgid "ACF Custom Fields"
+msgstr "ACF aangepaste velden"
+
+#: includes/modules/ui/module-ui-attachment.php:108
+msgid "Edit Media"
+msgstr "Media bewerken"
+
+#: includes/modules/options-page/module-options-page.php:64
+msgid "Position"
+msgstr "Positie"
+
+#: includes/acfe-file-functions.php:205
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: includes/acfe-field-group-functions.php:536
+msgid "edit"
+msgstr "bewerken"
+
+#: includes/fields/field-file.php:74
+msgid "Max size"
+msgstr "Max grootte"
+
+#: includes/fields/field-file.php:67
+msgid "Min size"
+msgstr "Min grootte"
+
+#: includes/modules/form/module-form-action-user.php:344
+msgid "E-mail address is already used"
+msgstr "E-mailadres is al in gebruik"
+
+#: includes/modules/form/module-form-action-user.php:345
+msgid "Username is already used"
+msgstr "Gebruikersnaam is al in gebruik"
+
+#: includes/fields/field-post-object.php:49
+msgid "See available hooks in the <a href=\"https://www.acf-extended.com/features/fields/post-object#custom-value-hooks\" target=\"_blank\">documentation</a>."
+msgstr "Bekijk alle beschikbare hooks in de <a href=\"https://www.acf-extended.com/features/fields/post-object#custom-value-hooks\" target=\"_blank\">documentatie</a>."
+
+#: includes/fields/field-checkbox.php:38
+msgid "You may use \"## Title\" to create a group of options."
+msgstr "Gebruik \"## Titel\" om een groep met opties te maken."
+
+#: includes/acfe-file-functions.php:204
+msgid "Located"
+msgstr "Gelokaliseerd"
+
+#: includes/modules/form/module-form.php:330
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/modules/form/module-form.php:303
+msgid "Helpers"
+msgstr "Helpers"
+
+#: includes/modules/form/module-form.php:302
+msgid "Hooks"
+msgstr "Hooks"
+
+#: includes/modules/form/module-form-action-user.php:343
+msgid "Invalid username or password"
+msgstr "Ongeldige gebruikersnaam of wachtwoord"
+
+#: includes/modules/form/module-form-action-user.php:342
+msgid "Invalid username"
+msgstr "Ongeldige gebruikersnaam"
+
+#: includes/modules/form/module-form-action-user.php:341
+msgid "Invalid e-mail or password"
+msgstr "Ongeldig e-mailadres of wachtwoord"
+
+#: includes/modules/form/module-form-action-user.php:340
+msgid "Invalid e-mail"
+msgstr "Ongeldig e-mailadres"
+
+#: includes/modules/form/module-form-action-custom.php:139
+#: includes/modules/form/module-form-action-email.php:532
+#: includes/modules/form/module-form-action-post.php:864
+#: includes/modules/form/module-form-action-redirect.php:105
+#: includes/modules/form/module-form-action-term.php:582
+#: includes/modules/form/module-form-action-user.php:1186
+#: includes/modules/form/module-form-upgrades.php:1237
+#: includes/modules/form/module-form-upgrades.php:1312
+#: includes/modules/form/module-form-upgrades.php:1678
+#: includes/modules/form/module-form-upgrades.php:2891
+#: includes/modules/form/module-form-upgrades.php:2988
+#: includes/modules/form/module-form-upgrades.php:3777
+#: includes/modules/form/module-form-upgrades.php:5356
+#: includes/modules/form/module-form.php:293
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: includes/assets.php:126
+msgid "Read more"
+msgstr "Lees meer"
+
+#: includes/assets.php:127
+msgid "Details"
+msgstr "Details"
+
+#: includes/assets.php:128
+msgid "Debug"
+msgstr "Debug"
+
+#: includes/fields-settings/data.php:80
+msgid "Field Data"
+msgstr "Veldgegevens"
+
+#: includes/fields-settings/data.php:71
+msgid "Field data unavailable"
+msgstr "Veldgegevens niet beschikbaar"
+
+#: includes/fields/field-button.php:137
+#: includes/fields/field-flexible-content-actions.php:87
+#: includes/fields/field-flexible-content-async.php:65
+#: includes/fields/field-flexible-content-controls.php:75
+#: includes/fields/field-flexible-content-controls.php:103
+#: includes/fields/field-flexible-content-edit.php:81
+#: includes/fields/field-flexible-content-hide.php:66
+#: includes/fields/field-flexible-content-preview.php:81
+#: includes/fields/field-flexible-content-preview.php:104
+#: includes/fields/field-flexible-content-preview.php:132
+#: includes/fields/field-flexible-content-select.php:78
+#: includes/fields/field-flexible-content-settings.php:74
+#: includes/fields/field-flexible-content-thumbnail.php:74
+msgid "See documentation"
+msgstr "Documentatie bekijken"
+
+#: includes/modules/form/module-form-action-user.php:339
+msgid "An error has occured. Please try again"
+msgstr "Er is een fout opgetreden. Probeer het opnieuw"
+
+#: includes/fields/field-button.php:136
+msgid "Ajax Request"
+msgstr "AJAX-verzoek"
+
+#: includes/modules/form/module-form-upgrades.php:1267
+msgid "Set a unique action slug."
+msgstr "Stel een unieke actie slug in."
+
+#: includes/modules/form/module-form-action-email.php:561
+#: includes/modules/form/module-form-action-post.php:912
+#: includes/modules/form/module-form-action-redirect.php:134
+#: includes/modules/form/module-form-action-term.php:630
+#: includes/modules/form/module-form-action-user.php:1257
+#: includes/modules/form/module-form-upgrades.php:1342
+#: includes/modules/form/module-form-upgrades.php:2921
+msgid "(Optional) Target this action using hooks."
+msgstr "(Optioneel) Target deze actie met behulp van hooks."
+
+#: includes/fields-settings/data.php:77
+msgid "Post object unavailable"
+msgstr "Bericht object niet beschikbaar"
+
+#: includes/modules/form/module-form.php:345
+msgid "PHP code"
+msgstr "PHP-code"
+
+#: includes/fields/field-flexible-content-thumbnail.php:74
+msgid "Set a thumbnail for each layouts"
+msgstr "Stel een thumbnail in voor elke lay-out"
+
+#: includes/fields/field-flexible-content-preview.php:132
+msgid "Display a placeholder with an icon"
+msgstr "Een plaatshouder met een pictogram weergeven"
+
+#: includes/fields/field-flexible-content-async.php:62
+msgid "Asynchronous Settings"
+msgstr "Asynchrone instellingen"
+
+#: includes/fields/field-flexible-content-preview.php:81
+msgid "Render the layout using custom template, style & javascript files"
+msgstr "Render de lay-out met aangepaste template, stijl en JavaScript-bestanden"
+
+#: includes/fields/field-recaptcha.php:21
+msgid "Google reCaptcha"
+msgstr "Google reCAPTCHA"
+
+#: includes/acfe-form-functions.php:200
+msgid "Input is invalid: Must be a json string or an array."
+msgstr "Invoer is ongeldig: moet een JSON string of een array zijn."
+
+#: includes/modules/form/module-form.php:41
+msgid "No form available."
+msgstr "Geen formulier beschikbaar."
+
+#: includes/modules/taxonomy/module-taxonomy.php:41
+msgid "No taxonomy available."
+msgstr "Geen taxonomie beschikbaar."
+
+#: includes/fields/field-button.php:93
+msgid "Input"
+msgstr "Invoer"
+
+#: includes/module-legacy.php:256 includes/module-post.php:129
+#: includes/modules/performance/module-performance-functions.php:651
+msgid "Active"
+msgstr "Actief"
+
+#: includes/module-legacy.php:256 includes/module-post.php:129
+msgid "Inactive"
+msgstr "Inactief"
+
+#: includes/fields/field-flexible-content-actions.php:84
+msgid "Additional Actions"
+msgstr "Aanvullende acties"
+
+#: includes/module-legacy.php:192
+msgid "Export "
+msgstr "Exporteren "
+
+#: includes/fields/field-flexible-content-hide.php:63
+msgid "Hide Buttons"
+msgstr "Knoppen verbergen"
+
+#: includes/acfe-field-group-functions.php:468
+#: includes/modules/block-type/module-block-type.php:207
+#: includes/modules/form/module-form-fields.php:1210
+#: includes/modules/form/module-form.php:61
+#: includes/modules/form/module-form.php:256
+#: includes/modules/options-page/module-options-page.php:238
+msgid "Field Groups"
+msgstr "Veldgroepen"
+
+#: includes/fields/field-flexible-content-preview.php:101
+msgid "Dynamic Preview"
+msgstr "Dynamische voorvertoning"
+
+#: includes/fields/field-dynamic-render.php:17
+#: includes/fields/field-flexible-content-preview.php:78
+msgid "Dynamic Render"
+msgstr "Dynamische render"
+
+#: includes/fields/field-flexible-content-state.php:62
+msgid "Default (User preference)"
+msgstr "Standaard (gebruikersvoorkeur)"
+
+#: includes/modules/post-type/module-post-type.php:41
+msgid "No post type available."
+msgstr "Geen berichttype beschikbaar."
+
+#: includes/fields/field-flexible-content-settings.php:126
+msgid "Clone settings"
+msgstr "Instellingen klonen"
+
+#: includes/fields/field-flexible-content-select.php:256
+msgid "Enter value"
+msgstr "Voer een waarde in"
+
+#: includes/modules/options-page/module-options-page-fields.php:33
+#: includes/modules/options-page/module-options-page.php:30
+msgid "Options Page"
+msgstr "Opties pagina"
+
+#: includes/module-posts.php:204
+msgid "View"
+msgstr "Bekijken"
+
+#: includes/fields/field-flexible-content-state.php:55
+msgid "Default Layouts State"
+msgstr "Standaard lay-out status"
+
+#: includes/modules/block-type/module-block-type.php:40
+msgid "No block type available."
+msgstr "Geen bloktype beschikbaar."
+
+#: includes/fields/field-flexible-content-edit.php:78
+msgid "Edit Modal"
+msgstr "Modal bewerken"
+
+#: includes/fields/field-flexible-content-select.php:75
+msgid "Selection Modal"
+msgstr "Selectie modal"
+
+#: includes/fields/field-flexible-content-settings.php:71
+msgid "Layouts Settings Modal"
+msgstr "Lay-out instellingen modal"
+
+#: includes/fields/field-flexible-content-edit.php:169
+msgid "Modal settings"
+msgstr "Modal instellingen"
+
+#: includes/locations/post-type-archive.php:44
+msgid "Archive <span class=\"count\">(%s)</span>"
+msgstr "Archief <span class=\"count\">(%s)</span>"
+
+#: includes/fields/field-flexible-content.php:320 assets/js/acfe-input.js:4112
+msgid "Add Row"
+msgstr "Rij toevoegen"
+
+#: includes/fields/field-file.php:66
+msgid "File size"
+msgstr "Bestandsgrootte"
+
+#: includes/modules/performance/module-performance-ultra-fields.php:44
+msgid "Save as individual meta"
+msgstr "Als individuele meta opslaan"
+
+#: includes/modules/performance/module-performance-ultra-fields.php:47
+msgid "Save the field as an individual meta."
+msgstr "Het veld als individuele meta opslaan."
+
+#. Description of the plugin
+#: acf-extended.php
+msgid "All-in-one enhancement suite that improves WordPress & Advanced Custom Fields."
+msgstr "Alles-in-één suite met verbeteringen voor WordPress en Advanced Custom Fields."
+
+#: includes/fields-settings/permissions.php:26
+msgid "Restrict user roles that are allowed to view and edit this field"
+msgstr "Beperk de gebruikersrollen die dit veld mogen zien en bewerken"
+
+#: includes/field-groups/field-group-meta.php:51
+msgid "Add custom meta data to the field group."
+msgstr "Aangepaste metagegevens toevoegen aan veldgroep."
+
+#: includes/field-groups/field-group.php:134
+msgid "Synchronize"
+msgstr "Synchroniseren"
+
+#: includes/field-groups/field-groups-local.php:243
+#: includes/field-groups/field-groups.php:780
+msgid "Export PHP"
+msgstr "PHP exporteren"
+
+#: includes/field-groups/field-groups-local.php:244
+#: includes/field-groups/field-groups.php:781
+msgid "Export Json"
+msgstr "JSON exporteren"
+
+#: includes/field-groups/field-groups.php:287
+msgid "Theme/Plugin"
+msgstr "Thema/plugin"
+
+#: includes/field-groups/field-groups.php:421
+#: includes/field-groups/field-groups.php:428
+#: includes/field-groups/field-groups.php:593
+msgid "Synchronized"
+msgstr "Gesynchroniseerd"
+
+#: includes/field-groups/field-groups.php:558
+#: includes/field-groups/field-groups.php:566
+msgid "Import"
+msgstr "Importeren"
+
+#: includes/field-groups/field-groups.php:711
+#: includes/field-groups/field-groups.php:719 includes/module-legacy.php:371
+#: includes/module-posts.php:171
+msgctxt "post status"
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: includes/acfe-file-functions.php:242
+#: includes/field-groups/field-groups.php:876
+msgid "in plugin:"
+msgstr "in plugin:"
+
+#: includes/acfe-file-functions.php:253
+#: includes/field-groups/field-groups.php:886
+msgid "in:"
+msgstr "in:"
+
+#: includes/acfe-file-functions.php:220 includes/acfe-file-functions.php:231
+#: includes/field-groups/field-groups.php:866
+msgid "in theme:"
+msgstr "in thema:"
+
+#: includes/init.php:174
+msgid "ACF Extended requires <a href=\"https://www.advancedcustomfields.com/pro/\" target=\"_blank\">Advanced Custom Fields PRO</a> (minimum: 5.8)."
+msgstr "ACF Extended vereist <a href=\"https://www.advancedcustomfields.com/pro/\" target=\"_blank\">Advanced Custom Fields PRO</a> (minimum: 5.8)."
+
+#: includes/field-groups/field-group.php:122
+#: includes/field-groups/field-groups.php:575
+#: includes/field-groups/field-groups.php:583
+msgid "Sync available"
+msgstr "Sync beschikbaar"
+
+#: includes/field-groups/field-groups.php:558
+msgid "Sync"
+msgstr "Sync"
+
+#: includes/field-groups/field-groups.php:442
+#: includes/field-groups/field-groups.php:607
+msgid "Awaiting save"
+msgstr "In afwachting van opslaan"
+
+#: includes/field-groups/field-groups-local.php:245
+msgid "Sync to database"
+msgstr "Naar database synchroniseren"
+
+#: includes/field-groups/field-groups.php:728
+msgid "Alternative title"
+msgstr "Alternatieve titel"
+
+#: includes/field-groups/field-group.php:143
+msgid "Review changes"
+msgstr "Wijzigingen bekijken"
+
+#: includes/field-groups/field-groups.php:442
+#: includes/field-groups/field-groups.php:443
+#: includes/field-groups/field-groups.php:450
+#: includes/field-groups/field-groups.php:607
+#: includes/field-groups/field-groups.php:608
+#: includes/field-groups/field-groups.php:615
+msgid "Save path"
+msgstr "Opslag pad"
+
+#: includes/field-groups/field-groups.php:566
+msgid "Review"
+msgstr "Beoordelen"
+
+#: includes/field-groups/field-groups.php:421
+#: includes/field-groups/field-groups.php:422
+msgid "Warning: Duplicated PHP code found in theme/plugin."
+msgstr "Waarschuwing: gedupliceerde PHP-code gevonden in thema/plugin."
+
+#: includes/fields/field-column.php:69
+msgid "Define an endpoint for the previous columns to stop."
+msgstr "Definieer een eindpunt waar de vorige kolommen stoppen."
+
+#: includes/field-groups/field-groups-local.php:160
+msgid "Select %s"
+msgstr "Selecteer %s"
+
+#: includes/field-groups/field-group.php:123
+msgid "Local json file is different from the version in database."
+msgstr "Lokaal JSON-bestand verschilt van de versie in de database."
+
+#: includes/fields/field-button.php:86
+msgid "Button type"
+msgstr "Knoptype"
+
+#: includes/fields/field-code-editor.php:71
+msgid "Choose the syntax highlight"
+msgstr "Kies de syntax highlight"
+
+#: includes/fields/field-flexible-content-controls.php:204
+msgid "Duplicate layout"
+msgstr "Lay-out dupliceren"
+
+#: includes/locations/post-type-archive.php:236
+msgid "Archive"
+msgstr "Archief"
+
+#: includes/fields/field-post-object.php:38
+msgid "Allow & Save Custom value"
+msgstr "Aangepaste waarde toestaan en opslaan"
+
+#: includes/modules/dev/module-dev-delete-meta.php:96
+msgid "Apply"
+msgstr "Toepassen"
+
+#: includes/modules/dev/module-dev-delete-meta.php:92
+msgid "Bulk Actions"
+msgstr "Bulkacties"
+
+#: includes/modules/dev/module-dev-delete-meta.php:87
+msgid "Select bulk action"
+msgstr "Bulkacties selecteren"
+
+#: includes/modules/options-page/module-options-page.php:61
+msgid "Menu slug"
+msgstr "Menu slug"
+
+#: includes/modules/options-page/module-options-page.php:267
+#: includes/modules/options-page/module-options-page.php:277
+msgid "This options page slug already exists"
+msgstr "Deze opties pagina slug bestaat al"
+
+#: includes/field-groups/field-groups-local.php:83
+msgid "Local"
+msgstr "Lokaal"
+
+#: includes/modules/form/module-form-front-render.php:302
+msgid "Validate Email"
+msgstr "E-mailadres valideren"
+
+#: includes/fields/field-advanced-link.php:160
+#: includes/fields/field-advanced-link.php:213
+#: includes/modules/form/module-form-action-term.php:641
+msgid "Term"
+msgstr "Term"
+
+#: includes/fields/field-code-editor.php:122
+msgid "Sets the textarea max height"
+msgstr "Stelt de maximale hoogte van het tekstgebied in"
+
+#: includes/fields/field-code-editor.php:121
+msgid "Max rows"
+msgstr "Max rijen"
+
+#: includes/fields/field-forms.php:194
+#: includes/fields/field-post-statuses.php:254
+#: includes/fields/field-post-types.php:254
+#: includes/fields/field-select.php:107
+#: includes/fields/field-taxonomies.php:254
+#: includes/fields/field-taxonomy-terms.php:640
+#: includes/fields/field-user-roles.php:239
+msgid "Appears within the search input"
+msgstr "Wordt weergegeven in de zoekinvoer"
+
+#: includes/fields/field-forms.php:193
+#: includes/fields/field-post-statuses.php:253
+#: includes/fields/field-post-types.php:253
+#: includes/fields/field-select.php:106
+#: includes/fields/field-taxonomies.php:253
+#: includes/fields/field-taxonomy-terms.php:639
+#: includes/fields/field-user-roles.php:238
+msgid "Search Input Placeholder"
+msgstr "Zoekinvoer plaatshouder"
+
+#: includes/field-groups/field-group-hide-on-screen.php:53
+msgid "Block Editor"
+msgstr "Blok-editor"
+
+#: includes/acfe-screen-functions.php:49
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+#: includes/fields/field-flexible-content-controls.php:58
+msgid "Advanced Flexible Content"
+msgstr "Geavanceerde flexibele inhoud"
+
+#: includes/fields/field-clone.php:141 includes/fields/field-group.php:76
+msgid "Display close button"
+msgstr "Sluitknop tonen"
+
+#: includes/fields/field-clone.php:181 includes/fields/field-group.php:112
+msgid "Choose the modal size"
+msgstr "Kies de grootte van het modal"
+
+#: includes/fields/field-clone.php:178 includes/fields/field-group.php:110
+msgid "Edition modal: Size"
+msgstr "Bewerkingsmodal: grootte"
+
+#: includes/fields/field-clone.php:159 includes/fields/field-group.php:93
+msgid "Edition modal: Text button"
+msgstr "Bewerkingsmodal: knop tekst"
+
+#: includes/fields/field-clone.php:138 includes/fields/field-group.php:74
+msgid "Edition modal: Close button"
+msgstr "Bewerkingsmodal: sluitknop"
+
+#: includes/fields/field-flexible-content-controls.php:61
+msgid "Show advanced Flexible Content settings"
+msgstr "Geavanceerde instellingen voor flexibele inhoud weergeven"
+
+#: includes/fields/field-flexible-content-preview.php:332
+msgid "Edit layout"
+msgstr "Lay-out bewerken"
+
+#: includes/locations/post-type-archive.php:139
+msgid "Permalink:"
+msgstr "Permalink:"
+
+#: includes/fields/field-flexible-content-controls.php:203
+msgid "Add layout"
+msgstr "Lay-out toevoegen"
+
+#: includes/fields/field-flexible-content-controls.php:205
+msgid "Remove layout"
+msgstr "Lay-out verwijderen"
+
+#: includes/fields/field-flexible-content-actions.php:474
+msgid "Copy layouts"
+msgstr "Lay-outs kopiëren"
+
+#: includes/fields/field-flexible-content-actions.php:475
+msgid "Paste layouts"
+msgstr "Lay-outs plakken"
+
+#: includes/fields/field-flexible-content-controls.php:206
+msgid "Click to toggle"
+msgstr "Klik om te togglen"
+
+#: includes/fields/field-flexible-content.php:539
+msgid "Drag to reorder"
+msgstr "Sleep om te herschikken"
+
+#: includes/fields/field-flexible-content-settings.php:74
+msgid "Choose a field group to clone and to be used as a configuration modal"
+msgstr "Kies een veldgroep om te klonen en om als configuratiemodal te gebruiken"
+
+#: includes/fields/field-flexible-content.php:343
+msgid "Click the \"%s\" button below to start creating your layout"
+msgstr "Klik op de \"%s\" knop hieronder om te beginnen met het maken van je lay-out"
+
+#: includes/fields/field-file.php:136 includes/fields/field-image.php:106
+#: includes/modules/form/module-form-action-email.php:751
+#: includes/modules/form/module-form-action-post.php:996
+#: includes/modules/form/module-form-action-post.php:1048
+#: includes/modules/form/module-form-action-post.php:1077
+#: includes/modules/form/module-form-action-post.php:1110
+#: includes/modules/form/module-form-action-post.php:1137
+#: includes/modules/form/module-form-action-post.php:1182
+#: includes/modules/form/module-form-action-post.php:1255
+#: includes/modules/form/module-form-action-post.php:1327
+#: includes/modules/form/module-form-action-post.php:1398
+#: includes/modules/form/module-form-action-post.php:1470
+#: includes/modules/form/module-form-action-post.php:1544
+#: includes/modules/form/module-form-action-post.php:1595
+#: includes/modules/form/module-form-action-post.php:1732
+#: includes/modules/form/module-form-action-term.php:716
+#: includes/modules/form/module-form-action-term.php:774
+#: includes/modules/form/module-form-action-term.php:802
+#: includes/modules/form/module-form-action-term.php:827
+#: includes/modules/form/module-form-action-term.php:880
+#: includes/modules/form/module-form-action-term.php:954
+#: includes/modules/form/module-form-action-term.php:1100
+#: includes/modules/form/module-form-action-user.php:1344
+#: includes/modules/form/module-form-action-user.php:1369
+#: includes/modules/form/module-form-action-user.php:1394
+#: includes/modules/form/module-form-action-user.php:1479
+#: includes/modules/form/module-form-action-user.php:1530
+#: includes/modules/form/module-form-action-user.php:1555
+#: includes/modules/form/module-form-action-user.php:1583
+#: includes/modules/form/module-form-action-user.php:1608
+#: includes/modules/form/module-form-action-user.php:1633
+#: includes/modules/form/module-form-action-user.php:1658
+#: includes/modules/form/module-form-action-user.php:1683
+#: includes/modules/form/module-form-action-user.php:1708
+#: includes/modules/form/module-form-action-user.php:1754
+#: includes/modules/form/module-form-action-user.php:1805
+#: includes/modules/form/module-form-action-user.php:1965
+#: includes/modules/form/module-form-fields.php:1344
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/field-groups/field-groups.php:151
+#: includes/field-groups/field-groups.php:175
+msgid "PHP"
+msgstr "PHP"
+
+#: includes/admin/tools/module-export.php:130
+#: includes/admin/tools/module-export.php:319
+msgid "Generate PHP"
+msgstr "PHP genereren"
+
+#: includes/modules/form/module-form.php:38
+#: includes/modules/form/module-form.php:39
+msgid "Export Forms"
+msgstr "Formulieren exporteren"
+
+#: includes/modules/form/module-form.php:40
+msgid "Select Forms"
+msgstr "Formulieren selecteren"
+
+#: includes/modules/form/module-form.php:42
+msgid "No forms selected"
+msgstr "Geen formulieren geselecteerd"
+
+#: includes/modules/form/module-form.php:46
+#: includes/modules/form/module-form.php:47
+msgid "Import Forms"
+msgstr "Formulieren importeren"
+
+#: includes/admin/tools/field-groups-export.php:37
+msgid "Exported 1 field group."
+msgid_plural "Exported %s field groups."
+msgstr[0] "1 veldgroep geëxporteerd."
+msgstr[1] "%s veldgroepen geëxporteerd."
+
+#: includes/fields/field-taxonomy-terms.php:755
+msgid "Save Terms"
+msgstr "Termen opslaan"
+
+#: includes/fields/field-taxonomy-terms.php:764
+msgid "Load Terms"
+msgstr "Termen laden"
+
+#: includes/module-legacy.php:100 includes/module-posts.php:41
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] "Actief <span class=\"count\">(%s)</span>"
+msgstr[1] "Actief <span class=\"count\">(%s)</span>"
+
+#: includes/fields/field-taxonomy-terms.php:765
+msgid "Load value from posts terms"
+msgstr "Waarde laden van berichttermen"
+
+#: includes/fields/field-advanced-link.php:39
+msgid "Filter by Post Type"
+msgstr "Filter op berichttype"
+
+#: includes/fields/field-taxonomy-terms.php:756
+msgid "Connect selected terms to the post"
+msgstr "Geselecteerde termen aan het bericht koppelen"
+
+#: includes/fields/field-advanced-link.php:52
+msgid "Filter by Taxonomy"
+msgstr "Filter op taxonomie"
+
+#: includes/fields/field-post-object.php:48
+msgid "New Post Arguments"
+msgstr "Nieuw bericht argumenten"
+
+#: includes/fields/field-post-object.php:43
+msgid "Save 'custom' values as new post"
+msgstr "'Aangepaste' waarden opslaan als nieuw bericht"
+
+#: includes/modules/form/module-form.php:49
+msgid "%s forms imported"
+msgstr "%s formulieren geïmporteerd"
+
+#: includes/fields/field-code-editor.php:78
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/fields/field-code-editor.php:75
+msgid "Text/HTML"
+msgstr "Tekst/HTML"
+
+#: includes/fields/field-code-editor.php:112
+msgid "Rows"
+msgstr "Rijen"
+
+#: includes/fields/field-code-editor.php:70
+msgid "Editor mode"
+msgstr "Editor modus"
+
+#: includes/fields/field-code-editor.php:61 includes/fields/field-forms.php:126
+#: includes/fields/field-post-statuses.php:186
+#: includes/fields/field-post-types.php:186 includes/fields/field-select.php:54
+#: includes/fields/field-taxonomies.php:186
+#: includes/fields/field-taxonomy-terms.php:572
+#: includes/fields/field-user-roles.php:171
+msgid "Placeholder"
+msgstr "Plaatshouder"
+
+#: includes/fields/field-code-editor.php:24
+msgid "Code Editor"
+msgstr "Code-editor"
+
+#: includes/fields/field-taxonomy-terms.php:465
+msgid "Allow Terms"
+msgstr "Termen toestaan"
+
+#: includes/fields/field-taxonomy-terms.php:474
+msgid "All terms"
+msgstr "Alle termen"
+
+#: includes/fields/field-clone.php:89 includes/fields/field-group.php:38
+msgid "Enable better CSS integration: remove borders and padding"
+msgstr "Betere CSS-integratie inschakelen: verwijder randen en padding"
+
+#: includes/fields/field-code-editor.php:86
+msgid "Show Lines"
+msgstr "Lijnen weergeven"
+
+#: includes/fields/field-code-editor.php:113
+msgid "Sets the textarea height"
+msgstr "Stelt de hoogte van het tekstgebied in"
+
+#: includes/fields/field-code-editor.php:76
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: includes/fields/field-clone.php:86 includes/fields/field-group.php:36
+msgid "Seamless Style"
+msgstr "Naadloze stijl"
+
+#: includes/fields/field-taxonomy-terms.php:480
+msgid "Terms_level"
+msgstr "Terms_level"
+
+#: includes/fields/field-code-editor.php:80
+msgid "PHP (plain)"
+msgstr "PHP (gewoon)"
+
+#: includes/fields/field-code-editor.php:79
+msgid "PHP (mixed)"
+msgstr "PHP (gemengd)"
+
+#: includes/fields/field-textarea.php:65
+msgid "Switch font family to monospace and allow tab indent. For a more advanced code editor, please use the <code>Code Editor</code> field type"
+msgstr "Wijzig de lettertypefamilie naar monospace en sta tabinspringing toe. Voor een meer geavanceerde code-editor kun je het veldtype <code>Code editor</code> gebruiken"
+
+#: includes/fields/field-code-editor.php:95
+msgid "Indent Unit"
+msgstr "Inspringeenheid"
+
+#: includes/field-groups/field-groups.php:103
+#: includes/field-groups/field-groups.php:113
+#: includes/modules/form/module-form-action-post.php:1686
+#: includes/modules/form/module-form-action-term.php:1054
+#: includes/modules/form/module-form-action-user.php:1919
+msgid "Source"
+msgstr "Bron"
+
+#: includes/fields-settings/settings.php:141
+msgid "+"
+msgstr "+"
+
+#: includes/admin/tools/field-groups-local.php:62
+msgid "No field group selected"
+msgstr "Geen veldgroep geselecteerd"
+
+#: includes/admin/tools/field-groups-local.php:40
+msgid "Imported 1 field group"
+msgid_plural "Imported %s field groups"
+msgstr[0] "1 veldgroep geïmporteerd"
+msgstr[1] "%s veldgroepen geïmporteerd"
+
+#: includes/admin/tools/field-groups-local.php:254
+#: includes/admin/tools/module-export.php:265
+msgid "Copied"
+msgstr "Gekopieerd"
+
+#: includes/admin/tools/field-groups-local.php:226
+#: includes/admin/tools/module-export.php:210
+msgid "Copy to clipboard"
+msgstr "Kopiëren naar klembord"
+
+#: includes/field-groups/field-group-meta.php:34
+msgid "Field group"
+msgstr "Veldgroep"
+
+#: includes/field-groups/field-group-meta.php:54
+msgid "+ Meta"
+msgstr "+ Meta"
+
+#: includes/field-groups/field-group-advanced.php:51
+msgid "Advanced settings"
+msgstr "Geavanceerde instellingen"
+
+#: includes/fields-settings/validation.php:161
+msgid "Add validation"
+msgstr "Validatie toevoegen"
+
+#: includes/fields-settings/validation.php:156
+msgid "Advanced Validation"
+msgstr "Geavanceerde validatie"
+
+#: includes/locations/taxonomy-list.php:215
+msgid "Taxonomy List"
+msgstr "Taxonomie lijst"
+
+#: includes/fields-settings/settings.php:104
+msgid "Add settings"
+msgstr "Instellingen toevoegen"
+
+#: includes/admin/tools/field-groups-local.php:19
+msgid "Export Local Field Groups"
+msgstr "Lokale veldgroepen exporteren"
+
+#: includes/fields-settings/settings.php:102
+msgid "Change field settings based on location"
+msgstr "Veld instellingen wijzigen op basis van locatie"
+
+#: includes/field-groups/field-group-advanced.php:56
+msgid "Enable advanced fields settings & validation"
+msgstr "Geavanceerde veld-instellingen en validatie inschakelen"
+
+#: includes/admin/tools/field-groups-local.php:186
+msgid "The following code can be used to register a local version of the selected field group(s). A local field group can provide many benefits such as faster load times, version control & dynamic fields/settings. Simply copy and paste the following code to your theme's functions.php file or include it within an external file."
+msgstr "De volgende code kan worden gebruikt om een ​​lokale versie van de geselecteerde veldgroep(en) te registreren. Een lokale veldgroep kan veel voordelen bieden, zoals snellere laadtijden, versiebeheer en dynamische velden/instellingen. Kopieer en plak de volgende code in het functions.php bestand van je thema of voeg het toe aan een extern bestand."
+
+#: includes/locations/post-type-archive.php:292
+msgid "Post Type Archive"
+msgstr "Berichttype archief"
+
+#: includes/locations/post-type-list.php:215
+msgid "Post Type List"
+msgstr "Berichttype lijst"
+
+#: includes/field-groups/field-group-meta.php:116
+msgid "View raw field group data, for development use"
+msgstr "Bekijk de ruwe veldgroepgegevens, voor ontwikkelingsdoeleinden"
+
+#: includes/field-groups/field-groups.php:104
+#: includes/field-groups/field-groups.php:114
+#: includes/field-groups/field-groups.php:167
+msgid "Fields"
+msgstr "Velden"
+
+#: includes/acfe-field-functions.php:597 includes/module-legacy.php:534
+#: includes/modules/form/module-form-fields.php:970
+msgid "no label"
+msgstr "geen label"
+
+#: includes/modules/form/module-form-fields.php:1234
+#: includes/modules/form/module-form.php:62
+msgid "Actions"
+msgstr "Acties"
+
+#: includes/modules/form/module-form.php:63
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/modules/form/module-form-fields.php:1146
+#: includes/modules/form/module-form-shortcode.php:159
+#: includes/modules/form/module-form.php:28
+msgid "Form"
+msgstr "Formulier"
+
+#: includes/modules/dev/module-dev.php:555
+msgid "empty"
+msgstr "leeg"
+
+#: includes/modules/form/module-form-upgrades.php:6480
+msgid "Post updated"
+msgstr "Bericht geüpdatet"
+
+#: includes/modules/form/module-form-action-user.php:346
+msgid "Username may not be longer than 60 characters."
+msgstr "Gebruikersnaam mag niet langer zijn dan 60 tekens."
+
+#: includes/fields/field-recaptcha.php:67
+msgid "Dark"
+msgstr "Donker"
+
+#: includes/fields/field-recaptcha.php:66
+msgid "Light"
+msgstr "Licht"
+
+#: includes/fields/field-recaptcha.php:61
+msgid "Theme"
+msgstr "Thema"
+
+#: includes/fields/field-recaptcha.php:55
+msgid "reCaptcha V3"
+msgstr "reCAPTCHA v3"
+
+#: includes/fields/field-recaptcha.php:54
+msgid "reCaptcha V2"
+msgstr "reCAPTCHA v2"
+
+#: includes/fields/field-recaptcha.php:88
+msgid "Compact"
+msgstr "Compact"
+
+#: includes/fields/field-recaptcha.php:103
+msgid "Hide logo"
+msgstr "Logo verbergen"
+
+#: includes/fields/field-recaptcha.php:256
+#: includes/fields/field-recaptcha.php:265
+msgid "An error has occured"
+msgstr "Er is een fout opgetreden"
+
+#: includes/fields/field-hidden.php:17
+#: includes/modules/form/module-form-fields.php:1555
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: includes/fields/field-advanced-link.php:47
+#: includes/fields/field-post-types.php:61
+msgid "All post types"
+msgstr "Alle berichttypen"
+
+#: includes/fields/field-post-types.php:53
+msgid "Allow Post Type"
+msgstr "Berichttype toestaan"
+
+#: includes/fields/field-user-roles.php:59
+msgid "All user roles"
+msgstr "Alle gebruikersrollen"
+
+#: includes/fields/field-user-roles.php:51
+msgid "Allow User Role"
+msgstr "Gebruikersrol toestaan"
+
+#: includes/fields/field-user-roles.php:17
+msgid "User Roles"
+msgstr "Gebruikersrollen"
+
+#: includes/fields/field-recaptcha.php:49
+msgid "Version"
+msgstr "Versie"
+
+#: includes/fields/field-button.php:103
+msgid "class"
+msgstr "klasse"
+
+#: includes/fields/field-button.php:112
+msgid "id"
+msgstr "ID"
+
+#: includes/fields/field-button.php:127
+msgid "After HTML"
+msgstr "Na HTML"
+
+#: includes/fields/field-forms.php:332
+#: includes/fields/field-post-statuses.php:307
+#: includes/fields/field-post-types.php:307
+#: includes/fields/field-taxonomies.php:307
+#: includes/fields/field-taxonomy-terms.php:715
+#: includes/fields/field-user-roles.php:292
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: includes/fields/field-forms.php:331
+#: includes/fields/field-post-statuses.php:306
+#: includes/fields/field-post-types.php:306
+#: includes/fields/field-taxonomies.php:306
+#: includes/fields/field-taxonomy-terms.php:714
+#: includes/fields/field-user-roles.php:291
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: includes/fields/field-forms.php:239
+#: includes/fields/field-post-statuses.php:144
+#: includes/fields/field-post-types.php:144
+#: includes/fields/field-taxonomies.php:144
+#: includes/fields/field-taxonomy-terms.php:529
+#: includes/fields/field-user-roles.php:129
+msgid "Stylised UI"
+msgstr "Gestileerde UI"
+
+#: includes/fields/field-advanced-link.php:60
+#: includes/fields/field-taxonomies.php:61
+#: includes/fields/field-taxonomy-terms.php:374
+msgid "All taxonomies"
+msgstr "Alle taxonomieën"
+
+#: includes/fields/field-taxonomies.php:53
+#: includes/fields/field-taxonomy-terms.php:366
+msgid "Allow Taxonomy"
+msgstr "Taxonomie toestaan"
+
+#: includes/fields/field-forms.php:101
+#: includes/fields/field-post-statuses.php:101
+#: includes/fields/field-post-types.php:101
+#: includes/fields/field-taxonomies.php:101
+#: includes/fields/field-taxonomy-terms.php:547
+#: includes/fields/field-user-roles.php:86
+msgid "Allow Null?"
+msgstr "Null toestaan?"
+
+#: includes/fields/field-column.php:36
+msgid "Columns"
+msgstr "Kolommen"
+
+#: includes/fields/field-column.php:17
+msgid "Column"
+msgstr "Kolom"
+
+#: includes/fields/field-advanced-link.php:125
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: includes/fields/field-advanced-link.php:158
+#: includes/fields/field-advanced-link.php:168
+msgid "URL"
+msgstr "URL"
+
+#: includes/fields/field-advanced-link.php:247
+#: includes/modules/form/module-form-action-post.php:950
+#: includes/modules/form/module-form-action-term.php:670
+#: includes/modules/form/module-form-action-user.php:1433
+msgid "Target"
+msgstr "Doel"
+
+#: includes/fields/field-advanced-link.php:249
+msgid "Open in a new window"
+msgstr "Openen in een nieuw venster"
+
+#: includes/fields/field-advanced-link.php:159
+#: includes/fields/field-advanced-link.php:188
+#: includes/locations/post-type-archive.php:291
+#: includes/locations/post-type-list.php:214
+#: includes/modules/form/module-form-action-post.php:922
+msgid "Post"
+msgstr "Bericht"
+
+#: includes/acfe-field-group-functions.php:556
+#: includes/fields/field-advanced-link.php:153
+msgid "Type"
+msgstr "Type"
+
+#: includes/fields/field-forms.php:94
+msgid "Form name"
+msgstr "Formuliernaam"
+
+#: includes/fields/field-forms.php:61
+msgid "All forms"
+msgstr "Alle formulieren"
+
+#: includes/fields/field-forms.php:53
+msgid "Allow Forms"
+msgstr "Formulieren toestaan"
+
+#: includes/fields/field-forms.php:17 includes/locations/taxonomy-list.php:214
+#: includes/modules/form/module-form.php:22
+#: includes/modules/form/module-form.php:27
+#: includes/modules/form/module-form.php:29
+#: includes/modules/form/module-form.php:299
+msgid "Forms"
+msgstr "Formulieren"
+
+#: includes/fields/field-button.php:118
+msgid "Before HTML"
+msgstr "Voor HTML"
+
+#: includes/fields/field-post-statuses.php:53
+msgid "Allow Post Status"
+msgstr "Berichtstatus toestaan"
+
+#: includes/fields/field-recaptcha.php:87
+msgid "Normal"
+msgstr "Normaal"
+
+#: includes/fields/field-recaptcha.php:83
+msgid "Select the reCaptcha size"
+msgstr "Selecteer de reCAPTCHA grootte"
+
+#: includes/fields/field-recaptcha.php:82
+msgid "Size"
+msgstr "Grootte"
+
+#: includes/fields/field-recaptcha.php:62
+msgid "Select the reCaptcha theme"
+msgstr "Selecteer het reCAPTCHA-thema"
+
+#: includes/fields/field-button.php:128
+msgid "Custom HTML after the button"
+msgstr "Aangepaste HTML na de knop"
+
+#: includes/fields/field-button.php:119
+msgid "Custom HTML before the button"
+msgstr "Aangepaste HTML voor de knop"
+
+#: includes/fields/field-forms.php:258
+#: includes/fields/field-post-statuses.php:163
+#: includes/fields/field-post-types.php:163
+#: includes/fields/field-taxonomies.php:163
+#: includes/fields/field-taxonomy-terms.php:685
+#: includes/fields/field-user-roles.php:148
+msgid "Use AJAX to lazy load choices?"
+msgstr "AJAX gebruiken om keuzes te lazy-loaden?"
+
+#: includes/fields/field-forms.php:221
+#: includes/fields/field-post-statuses.php:126
+#: includes/fields/field-post-types.php:126
+#: includes/fields/field-taxonomies.php:126
+#: includes/fields/field-taxonomy-terms.php:667
+#: includes/fields/field-user-roles.php:111
+msgid "Select multiple values?"
+msgstr "Meerdere waarden selecteren?"
+
+#: includes/fields/field-advanced-link.php:237
+msgid "Link text"
+msgstr "Linktekst"
+
+#: includes/fields/field-advanced-link.php:17
+msgid "Advanced Link"
+msgstr "Geavanceerde link"
+
+#: includes/fields/field-recaptcha.php:130
+msgid "Enter the secret key. <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\">reCaptcha API Admin</a>"
+msgstr "Voer de geheime sleutel in. <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\">reCAPTCHA API Admin</a>"
+
+#: includes/fields/field-taxonomy-terms.php:20
+msgid "Taxonomy Terms"
+msgstr "Taxonomie termen"
+
+#: includes/fields/field-post-statuses.php:17
+msgid "Post Statuses"
+msgstr "Berichtstatussen"
+
+#: includes/fields/field-repeater.php:40
+msgid "Better row button integration"
+msgstr "Betere rij knop integratie"
+
+#: includes/fields/field-recaptcha.php:50
+msgid "Select the reCaptcha version"
+msgstr "Selecteer de reCAPTCHA versie"
+
+#: includes/fields/field-forms.php:93
+msgid "Form ID"
+msgstr "Formulier ID"
+
+#: includes/fields/field-recaptcha.php:129
+msgid "Secret key"
+msgstr "Geheime sleutel"
+
+#: includes/fields/field-forms.php:354
+#: includes/fields/field-post-statuses.php:329
+#: includes/fields/field-post-types.php:329
+#: includes/fields/field-taxonomies.php:329
+#: includes/fields/field-taxonomy-terms.php:737
+#: includes/fields/field-user-roles.php:314
+msgid "Toggle"
+msgstr "Toggle"
+
+#: includes/fields/field-forms.php:372
+#: includes/fields/field-post-statuses.php:347
+#: includes/fields/field-post-types.php:347 includes/fields/field-select.php:35
+#: includes/fields/field-taxonomies.php:347
+#: includes/fields/field-user-roles.php:332
+msgid "Allow Custom"
+msgstr "Aangepaste toestaan"
+
+#: includes/fields/field-forms.php:392
+msgid "Save Custom"
+msgstr "Aangepaste opslaan"
+
+#: includes/fields/field-forms.php:377
+#: includes/fields/field-post-statuses.php:352
+#: includes/fields/field-post-types.php:352 includes/fields/field-select.php:40
+#: includes/fields/field-taxonomies.php:352
+#: includes/fields/field-user-roles.php:337
+msgid "Allow 'custom' values to be added"
+msgstr "Toestaan dat 'aangepaste' waarden toegevoegd kunnen worden"
+
+#: includes/fields/field-forms.php:301
+msgid "Save Other"
+msgstr "Andere opslaan"
+
+#: includes/fields/field-forms.php:286
+#: includes/fields/field-post-statuses.php:286
+#: includes/fields/field-post-types.php:286
+#: includes/fields/field-taxonomies.php:286
+#: includes/fields/field-user-roles.php:271
+msgid "Add 'other' choice to allow for custom values"
+msgstr "'Andere' keuze toevoegen om aangepaste waarden toe te staan"
+
+#: includes/fields/field-recaptcha.php:122
+msgid "Enter the site key. <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\">reCaptcha API Admin</a>"
+msgstr "Voer de sitesleutel in. <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\">reCAPTCHA API Admin</a>"
+
+#: includes/fields/field-textarea.php:62
+msgid "Code mode"
+msgstr "Codemodus"
+
+#: includes/fields/field-recaptcha.php:104
+msgid "Hide the reCaptcha logo"
+msgstr "Het reCAPTCHA logo verbergen"
+
+#: includes/fields/field-advanced-link.php:123
+msgid "Opens in a new window/tab"
+msgstr "Opent in een nieuw venster/tab"
+
+#: includes/fields/field-column.php:68
+msgid "Endpoint"
+msgstr "Eindpunt"
+
+#: includes/fields/field-forms.php:130
+#: includes/fields/field-post-statuses.php:190
+#: includes/fields/field-post-types.php:190 includes/fields/field-select.php:58
+#: includes/fields/field-taxonomies.php:190
+#: includes/fields/field-taxonomy-terms.php:576
+#: includes/fields/field-user-roles.php:175
+msgctxt "verb"
+msgid "Select"
+msgstr "Selecteer"
+
+#: includes/fields/field-forms.php:281
+#: includes/fields/field-post-statuses.php:281
+#: includes/fields/field-post-types.php:281
+#: includes/fields/field-taxonomies.php:281
+#: includes/fields/field-user-roles.php:266
+msgid "Other"
+msgstr "Andere"
+
+#: includes/fields/field-button.php:79
+msgid "Set a default button value"
+msgstr "Stel een standaard knopwaarde in"
+
+#: includes/fields/field-button.php:87
+msgid "Choose the button type"
+msgstr "Kies het knoptype"
+
+#: includes/fields/field-advanced-link.php:118
+msgid "Select Link"
+msgstr "Link selecteren"
+
+#: includes/fields/field-forms.php:355
+#: includes/fields/field-post-statuses.php:330
+#: includes/fields/field-post-types.php:330
+#: includes/fields/field-taxonomies.php:330
+#: includes/fields/field-taxonomy-terms.php:738
+#: includes/fields/field-user-roles.php:315
+msgid "Prepend an extra checkbox to toggle all choices"
+msgstr "Voeg een extra selectievakje voor om alle keuzes te togglen"
+
+#: includes/fields/field-hidden.php:67
+msgid "Default value in the hidden input"
+msgstr "Standaardwaarde in de verborgen invoer"
+
+#: includes/fields/field-file.php:133 includes/fields/field-image.php:103
+msgid "Choose the uploader type"
+msgstr "Kies het type uploader"
+
+#: includes/fields/field-forms.php:397
+msgid "Save 'custom' values to the field's choices"
+msgstr "'Aangepaste' waarden opslaan in de keuzes van het veld"
+
+#: includes/fields/field-forms.php:306
+msgid "Save 'other' values to the field's choices"
+msgstr "'Andere' waarden opslaan in de keuzes van het veld"
+
+#: includes/fields/field-clone.php:115 includes/fields/field-group.php:57
+msgid "Edit fields in a modal"
+msgstr "Velden bewerken in een modal"
+
+#: includes/fields/field-forms.php:81
+#: includes/fields/field-post-statuses.php:81
+#: includes/fields/field-post-types.php:81
+#: includes/fields/field-taxonomies.php:81
+#: includes/fields/field-taxonomy-terms.php:508
+#: includes/fields/field-user-roles.php:79
+msgid "Enter each default value on a new line"
+msgstr "Voer elke standaardwaarde in op een nieuwe regel"
+
+#: includes/fields/field-clone.php:112 includes/fields/field-group.php:55
+msgid "Edition modal"
+msgstr "Bewerkingsmodal"
+
+#: includes/fields/field-taxonomy-terms.php:520
+msgid "Term object"
+msgstr "Term object"
+
+#: includes/fields/field-taxonomy-terms.php:521
+msgid "Term name"
+msgstr "Term naam"
+
+#: includes/fields/field-clone.php:162 includes/fields/field-group.php:95
+msgid "Text displayed in the edition modal button"
+msgstr "Tekst weergegeven in de bewerkingsmodal knop"
+
+#: includes/fields/field-post-statuses.php:61
+msgid "All post statuses"
+msgstr "Alle berichtstatussen"
+
+#: includes/fields/field-post-statuses.php:93
+msgid "Post status object"
+msgstr "Berichtstatus object"
+
+#: includes/fields/field-post-statuses.php:94
+msgid "Post status name"
+msgstr "Berichtstatus naam"
+
+#: includes/fields/field-button.php:137
+msgid "Trigger ajax event on click"
+msgstr "AJAX-event triggeren bij klikken"
+
+#: includes/fields/field-taxonomy-terms.php:522
+msgid "Term ID"
+msgstr "Term ID"
+
+#: includes/fields/field-file.php:130 includes/fields/field-image.php:100
+msgid "Uploader Type"
+msgstr "Type uploader"
+
+#: includes/fields/field-recaptcha.php:121
+msgid "Site key"
+msgstr "Site sleutel"
+
+#: includes/fields/field-flexible-content-preview.php:129
+msgid "Layouts Placeholder"
+msgstr "Lay-outs plaatshouder"
+
+#: includes/fields/field-flexible-content-actions.php:501
+#: includes/fields/field-forms.php:325
+#: includes/fields/field-post-statuses.php:300
+#: includes/fields/field-post-types.php:300
+#: includes/fields/field-taxonomies.php:300
+#: includes/fields/field-taxonomy-terms.php:708
+#: includes/fields/field-user-roles.php:285
+msgid "Layout"
+msgstr "Lay-out"
+
+#: includes/assets.php:124 includes/field-groups/field-group-meta.php:160
+#: includes/fields-settings/data.php:94
+#: includes/fields/field-advanced-link.php:100
+#: includes/fields/field-flexible-content-edit.php:278
+#: includes/fields/field-flexible-content-settings.php:275
+#: includes/fields/field-flexible-content.php:812
+#: includes/fields/field-flexible-content.php:818 assets/js/acfe-input.js:2790
+#: assets/js/acfe-input.js:4828
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/fields/field-flexible-content-preview.php:104
+msgid "Use layouts render settings to display a dynamic preview in the administration"
+msgstr "Renderinstellingen voor lay-outs gebruiken om een dynamisch voorbeeld in de beheeromgeving weer te geven"
+
+#: includes/modules/block-type/module-block-type.php:61
+#: includes/modules/post-type/module-post-type.php:62
+msgid "Posts"
+msgstr "Berichten"
+
+#: includes/modules/taxonomy/module-taxonomy.php:62
+msgid "Terms"
+msgstr "Termen"
+
+#: includes/field-groups/field-groups.php:155
+#: includes/field-groups/field-groups.php:179
+#: includes/fields/field-code-editor.php:77
+msgid "Json"
+msgstr "JSON"
+
+#: includes/modules/post-type/module-post-type.php:40
+msgid "Select Post Types"
+msgstr "Berichttypen selecteren"
+
+#: includes/modules/post-type/module-post-type.php:42
+msgid "No post types selected"
+msgstr "Geen berichttypen geselecteerd"
+
+#: includes/modules/taxonomy/module-taxonomy.php:46
+#: includes/modules/taxonomy/module-taxonomy.php:47
+msgid "Import Taxonomies"
+msgstr "Taxonomieën importeren"
+
+#: includes/admin/tools/module-import.php:162
+msgid "No file selected"
+msgstr "Geen bestand geselecteerd"
+
+#: includes/admin/tools/module-import.php:58 assets/js/acfe-input.js:2094
+msgid "Select File"
+msgstr "Bestand selecteren"
+
+#: includes/modules/post-type/module-post-type.php:46
+#: includes/modules/post-type/module-post-type.php:47
+msgid "Import Post Types"
+msgstr "Berichttypen importeren"
+
+#: includes/modules/post-type/module-post-type.php:38
+#: includes/modules/post-type/module-post-type.php:39
+msgid "Export Post Types"
+msgstr "Berichttypen exporteren"
+
+#: includes/modules/taxonomy/module-taxonomy.php:38
+#: includes/modules/taxonomy/module-taxonomy.php:39
+msgid "Export Taxonomies"
+msgstr "Taxonomieën exporteren"
+
+#: includes/modules/taxonomy/module-taxonomy.php:40
+msgid "Select Taxonomies"
+msgstr "Taxonomieën selecteren"
+
+#: includes/modules/taxonomy/module-taxonomy.php:42
+msgid "No taxonomies selected"
+msgstr "Geen taxonomieën geselecteerd"
+
+#: includes/admin/tools/module-import.php:193
+msgid "Import file empty"
+msgstr "Leeg importbestand"
+
+#: includes/admin/tools/module-import.php:181
+msgid "Incorrect file type"
+msgstr "Onjuiste bestandstype"
+
+#: includes/admin/tools/module-import.php:173
+msgid "Error uploading file. Please try again"
+msgstr "Fout bij uploaden van bestand. Probeer het opnieuw"
+
+#: includes/admin/plugins.php:32
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+#: includes/admin/tools/module-import.php:69
+msgid "Import File"
+msgstr "Bestand importeren"
+
+#: includes/admin/tools/module-export.php:126
+#: includes/admin/tools/module-export.php:315
+msgid "Export File"
+msgstr "Bestand exporteren"
+
+#: includes/fields/field-flexible-content-select.php:78
+msgid "Select layouts in a modal"
+msgstr "Selecteer lay-outs in een modal"
+
+#: includes/modules/options-page/module-options-page.php:42
+msgid "No options page available."
+msgstr "Geen opties pagina beschikbaar."
+
+#: includes/modules/options-page/module-options-page.php:43
+msgid "No options pages selected"
+msgstr "Geen opties pagina's geselecteerd"
+
+#: includes/modules/block-type/module-block-type.php:41
+msgid "No block types selected"
+msgstr "Geen bloktypen geselecteerd"
+
+#: includes/modules/options-page/module-options-page.php:39
+#: includes/modules/options-page/module-options-page.php:40
+msgid "Export Options Pages"
+msgstr "Opties pagina's exporteren"
+
+#: includes/modules/options-page/module-options-page.php:41
+msgid "Select Options Pages"
+msgstr "Opties pagina's selecteren"
+
+#: includes/modules/options-page/module-options-page.php:47
+#: includes/modules/options-page/module-options-page.php:48
+msgid "Import Options Pages"
+msgstr "Opties pagina's importeren"
+
+#: includes/modules/block-type/module-block-type.php:37
+#: includes/modules/block-type/module-block-type.php:38
+msgid "Export Block Types"
+msgstr "Bloktypen exporteren"
+
+#: includes/modules/block-type/module-block-type.php:39
+msgid "Select Block Types"
+msgstr "Bloktypen selecteren"
+
+#: includes/modules/block-type/module-block-type.php:45
+#: includes/modules/block-type/module-block-type.php:46
+msgid "Import Block Types"
+msgstr "Bloktypen importeren"
+
+#: includes/fields/field-flexible-content-edit.php:81
+msgid "Edit layout content in a modal"
+msgstr "Lay-out inhoud bewerken in een modal"
+
+#: includes/modules/taxonomy/module-taxonomy.php:43
+msgid "1 taxonomy exported"
+msgstr "1 taxonomie geëxporteerd"
+
+#: includes/modules/post-type/module-post-type.php:49
+msgid "%s post types imported"
+msgstr "%s berichttypen geïmporteerd"
+
+#: includes/modules/block-type/module-block-type.php:48
+msgid "%s block types imported"
+msgstr "%s bloktypen geïmporteerd"
+
+#: includes/modules/options-page/module-options-page.php:50
+msgid "%s options pages imported"
+msgstr "%s instellingenpagina's geïmporteerd"
+
+#: includes/fields/field-flexible-content-thumbnail.php:111
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: includes/field-groups/field-groups.php:102
+#: includes/field-groups/field-groups.php:112
+#: includes/fields/field-flexible-content-select.php:105
+msgid "Title"
+msgstr "Titel"
+
+#: includes/fields/field-flexible-content-thumbnail.php:71
+msgid "Layouts Thumbnails"
+msgstr "Lay-outs thumbnails"
+
+#: includes/fields/field-flexible-content-controls.php:128
+msgid "Empty Message"
+msgstr "Leeg bericht"
+
+#: includes/fields/field-flexible-content-controls.php:100
+msgid "Hide Empty Message"
+msgstr "Leeg bericht verbergen"
+
+#: includes/fields/field-flexible-content-controls.php:72
+#: includes/fields/field-repeater.php:37
+msgid "Stylised Button"
+msgstr "Gestileerde knop"
+
+#: includes/fields/field-flexible-content-controls.php:131
+msgid "Text displayed when the flexible field is empty"
+msgstr "Tekst getoond als het flexibele veld leeg is"
+
+#: includes/fields/field-flexible-content-controls.php:75
+msgid "Better actions buttons integration"
+msgstr "Betere actieknoppen integratie"
+
+#: includes/fields/field-flexible-content-controls.php:133
+msgid "Click the \"Add Row\" button below to start creating your layout"
+msgstr "Klik op de \"Rij toevoegen\" knop hieronder om te beginnen met het maken van je lay-out"
+
+#: includes/fields/field-flexible-content-state.php:58
+msgid "Force layouts to be collapsed or opened"
+msgstr "Forceer dat lay-outs worden ingeklapt of geopend"
+
+#: includes/fields/field-flexible-content-select.php:247
+#: includes/modules/block-type/module-block-type.php:60
+msgid "Category"
+msgstr "Categorie"
+
+#: includes/fields/field-flexible-content-preview.php:180
+#: includes/modules/form/module-form-fields.php:1698
+msgid "Render"
+msgstr "Render"
+
+#: includes/modules/options-page/module-options-page.php:62
+msgid "Post ID"
+msgstr "Bericht ID"
+
+#: includes/modules/block-type/module-block-type-fields.php:33
+#: includes/modules/block-type/module-block-type.php:28
+msgid "Block Type"
+msgstr "Bloktype"
+
+#: includes/fields/field-image.php:132
+msgid "Make this image the featured thumbnail"
+msgstr "Maak deze afbeelding de uitgelichte thumbnail"
+
+#: includes/fields/field-image.php:129
+msgid "Featured Thumbnail"
+msgstr "Uitgelichte thumbnail"
+
+#. Author of the plugin
+#: acf-extended.php
+msgid "ACF Extended"
+msgstr "ACF Extended"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: acf-extended.php
+msgid "https://www.acf-extended.com"
+msgstr "https://www.acf-extended.com"
+
+#: includes/modules/option/module-option-table.php:225
+msgid "ID"
+msgstr "ID"
+
+#: includes/modules/option/module-option.php:500
+#: includes/modules/options-page/module-options-page.php:313
+#: assets/js/acfe-admin.js:325
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/modules/option/module-option.php:499
+#: includes/modules/options-page/module-options-page.php:313
+#: assets/js/acfe-admin.js:326
+msgid "No"
+msgstr "Nee"
+
+#: includes/modules/dev/module-dev-delete-meta.php:60
+#: includes/modules/dev/module-dev-delete-meta.php:93
+#: includes/modules/option/module-option-table.php:209
+#: includes/modules/option/module-option-table.php:261
+#: includes/modules/option/module-option.php:533
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/modules/option/module-option.php:564
+msgid "Edit field group"
+msgstr "Veldgroep bewerken"
+
+#: includes/modules/option/module-option.php:90
+msgid "Option has been updated"
+msgstr "Optie is geüpdatet"
+
+#: includes/modules/option/module-option.php:95
+msgid "Option has been added"
+msgstr "Optie is toegevoegd"
+
+#: includes/admin/views/html-options-list.php:4
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: includes/modules/option/module-option-table.php:21
+msgid "Option"
+msgstr "Optie"
+
+#: includes/modules/option/module-option-table.php:106
+msgid "No options avaliable."
+msgstr "Geen opties beschikbaar."
+
+#: includes/admin/views/html-options-edit.php:4
+#: includes/modules/option/module-option.php:517
+msgid "Edit Option"
+msgstr "Optie bewerken"
+
+#: includes/acfe-field-group-functions.php:554
+#: includes/modules/block-type/module-block-type.php:59
+#: includes/modules/dev/module-dev.php:436
+#: includes/modules/form/module-form-action-term.php:754
+#: includes/modules/form/module-form-action-term.php:1138
+#: includes/modules/form/module-form-fields.php:1191
+#: includes/modules/form/module-form.php:60
+#: includes/modules/option/module-option-table.php:226
+#: includes/modules/option/module-option.php:361
+#: includes/modules/post-type/module-post-type.php:60
+#: includes/modules/taxonomy/module-taxonomy.php:60
+msgid "Name"
+msgstr "Naam"
+
+#: includes/admin/views/html-options-list.php:3
+#: includes/modules/option/module-option-table.php:22
+#: includes/modules/option/module-option.php:60
+msgid "Options"
+msgstr "Opties"
+
+#: includes/modules/option/module-option.php:85
+msgid "Options have been deleted"
+msgstr "Opties zijn verwijderd"
+
+#: includes/modules/option/module-option.php:80
+msgid "Option has been deleted"
+msgstr "Optie is verwijderd"
+
+#: includes/modules/dev/module-dev.php:450
+#: includes/modules/option/module-option-table.php:228
+#: includes/modules/option/module-option.php:484
+#: includes/modules/options-page/module-options-page.php:63
+msgid "Autoload"
+msgstr "Automatisch laden"
+
+#: includes/fields/field-advanced-link.php:124
+#: includes/fields/field-clone.php:164 includes/fields/field-clone.php:228
+#: includes/fields/field-group.php:97 includes/fields/field-group.php:156
+#: includes/locations/post-type-archive.php:236
+#: includes/modules/option/module-option-table.php:208
+#: includes/modules/option/module-option.php:516
+#: includes/modules/ui/module-ui-settings.php:70
+#: includes/modules/ui/module-ui-term.php:102
+#: includes/modules/ui/module-ui-user.php:166
+msgid "Edit"
+msgstr "Bewerken"
+
+#: includes/assets.php:125 includes/locations/post-type-list.php:199
+#: includes/locations/taxonomy-list.php:199
+#: includes/modules/option/module-option.php:541
+#: includes/modules/options-page/module-options-page.php:79
+msgid "Update"
+msgstr "Update"
+
+#: includes/modules/author.php:75
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/fields-settings/bidirectional.php:48
+msgid "Set the field as bidirectional"
+msgstr "Maak veld bidirectioneel"
+
+#: includes/fields-settings/bidirectional.php:45
+msgid "Bidirectional"
+msgstr "Bidirectioneel"
+
+#: includes/fields/field-post-types.php:17
+#: includes/modules/post-type/module-post-type.php:25
+#: includes/modules/post-type/module-post-type.php:28
+#: includes/modules/post-type/module-post-type.php:30
+#: includes/modules/taxonomy/module-taxonomy.php:61
+msgid "Post Types"
+msgstr "Berichttypen"
+
+#: includes/fields/field-taxonomies.php:17
+#: includes/modules/post-type/module-post-type.php:61
+#: includes/modules/taxonomy/module-taxonomy.php:25
+#: includes/modules/taxonomy/module-taxonomy.php:28
+#: includes/modules/taxonomy/module-taxonomy.php:30
+msgid "Taxonomies"
+msgstr "Taxonomieën"
+
+#: includes/fields/field-slug.php:63
+#: includes/modules/form/module-form-action-post.php:1621
+msgid "Append"
+msgstr "Toevoegen"
+
+#: includes/fields/field-slug.php:55
+msgid "Prepend"
+msgstr "Voorvoegen"
+
+#: includes/fields/field-slug.php:47
+msgid "Placeholder Text"
+msgstr "Plaatshouder tekst"
+
+#: includes/fields/field-code-editor.php:104 includes/fields/field-slug.php:71
+msgid "Character Limit"
+msgstr "Tekenlimiet"
+
+#: includes/fields/field-code-editor.php:105 includes/fields/field-slug.php:72
+msgid "Leave blank for no limit"
+msgstr "Laat leeg voor geen limiet"
+
+#: includes/fields/field-slug.php:17
+#: includes/modules/form/module-form-action-term.php:783
+#: includes/modules/form/module-form-action-term.php:1172
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/fields/field-forms.php:66
+#: includes/fields/field-post-statuses.php:66
+#: includes/fields/field-post-types.php:66
+#: includes/fields/field-taxonomies.php:66
+#: includes/fields/field-taxonomy-terms.php:493
+#: includes/fields/field-user-roles.php:64
+msgid "Appearance"
+msgstr "Weergave"
+
+#: includes/admin/views/html-options-edit.php:6
+#: includes/modules/option/module-option.php:512
+msgid "Add Option"
+msgstr "Optie toevoegen"
+
+#: includes/fields/field-forms.php:73
+#: includes/fields/field-post-statuses.php:73
+#: includes/fields/field-post-types.php:73
+#: includes/fields/field-taxonomies.php:73
+#: includes/fields/field-taxonomy-terms.php:500
+#: includes/fields/field-user-roles.php:71
+msgid "Radio Buttons"
+msgstr "Keuzerondjes"
+
+#: includes/fields/field-forms.php:72
+#: includes/fields/field-post-statuses.php:72
+#: includes/fields/field-post-types.php:72
+#: includes/fields/field-taxonomies.php:72
+#: includes/fields/field-taxonomy-terms.php:499
+#: includes/fields/field-user-roles.php:70
+msgid "Checkbox"
+msgstr "Selectievakje"
+
+#: includes/fields/field-forms.php:67
+#: includes/fields/field-post-statuses.php:67
+#: includes/fields/field-post-types.php:67
+#: includes/fields/field-taxonomies.php:67
+#: includes/fields/field-taxonomy-terms.php:494
+#: includes/fields/field-user-roles.php:65
+msgid "Select the appearance of this field"
+msgstr "Selecteer het uiterlijk van dit veld"
+
+#: includes/fields/field-forms.php:74
+#: includes/fields/field-post-statuses.php:74
+#: includes/fields/field-post-types.php:74
+#: includes/fields/field-taxonomies.php:74
+#: includes/fields/field-taxonomy-terms.php:501
+#: includes/fields/field-user-roles.php:72
+msgctxt "noun"
+msgid "Select"
+msgstr "Selecteer"
+
+#: includes/fields/field-code-editor.php:130 includes/fields/field-forms.php:88
+#: includes/fields/field-post-statuses.php:88
+#: includes/fields/field-post-types.php:88
+#: includes/fields/field-taxonomies.php:88
+#: includes/fields/field-taxonomy-terms.php:515
+msgid "Return Value"
+msgstr "Retour waarde"
+
+#: includes/fields/field-post-types.php:93
+msgid "Post type object"
+msgstr "Berichttype object"
+
+#: includes/fields/field-post-types.php:94
+msgid "Post type name"
+msgstr "Berichttype naam"
+
+#: includes/fields/field-code-editor.php:52 includes/fields/field-forms.php:80
+#: includes/fields/field-post-statuses.php:80
+#: includes/fields/field-post-types.php:80 includes/fields/field-slug.php:39
+#: includes/fields/field-taxonomies.php:80
+#: includes/fields/field-taxonomy-terms.php:507
+#: includes/fields/field-user-roles.php:78
+msgid "Default Value"
+msgstr "Standaardwaarde"
+
+#: includes/fields/field-taxonomies.php:93
+msgid "Taxonomy object"
+msgstr "Taxonomie object"
+
+#: includes/fields/field-taxonomies.php:94
+msgid "Taxonomy name"
+msgstr "Taxonomie naam"
+
+#: includes/fields/field-slug.php:113
+msgid "Value must not exceed %d characters"
+msgstr "De waarde mag %d karakters niet overschrijden"
+
+#: includes/fields/field-code-editor.php:62 includes/fields/field-forms.php:127
+#: includes/fields/field-post-statuses.php:187
+#: includes/fields/field-post-types.php:187 includes/fields/field-select.php:55
+#: includes/fields/field-slug.php:48 includes/fields/field-taxonomies.php:187
+#: includes/fields/field-taxonomy-terms.php:573
+#: includes/fields/field-user-roles.php:172
+msgid "Appears within the input"
+msgstr "Wordt weergegeven in de invoer"
+
+#: includes/fields/field-slug.php:56
+msgid "Appears before the input"
+msgstr "Wordt weergegeven vóór de invoer"
+
+#: includes/fields/field-slug.php:64
+msgid "Appears after the input"
+msgstr "Wordt weergegeven na de invoer"
+
+#: includes/fields/field-code-editor.php:53 includes/fields/field-slug.php:40
+msgid "Appears when creating a new post"
+msgstr "Wordt weergegeven bij het maken van een nieuw bericht"
+
+#: includes/modules/taxonomy/module-taxonomy.php:188
+#: includes/modules/taxonomy/module-taxonomy.php:209
+msgid "This taxonomy already exists"
+msgstr "Deze taxonomie bestaat al"
+
+#: includes/modules/taxonomy/module-taxonomy.php:199
+msgid "This taxonomy is reserved"
+msgstr "Deze taxonomie is gereserveerd"
+
+#: includes/modules/post-type/module-post-type.php:195
+#: includes/modules/post-type/module-post-type.php:215
+msgid "This post type already exists"
+msgstr "Dit berichttype bestaat al"
+
+#: includes/modules/post-type/module-post-type.php:205
+msgid "This post type is reserved"
+msgstr "Dit berichttype is gereserveerd"
+
+#: includes/modules/form/module-form-action-post.php:1032
+#: includes/modules/form/module-form-action-post.php:1766
+msgid "Post type"
+msgstr "Berichttype"
+
+#: includes/fields/field-taxonomy-terms.php:486
+#: includes/locations/post-type-all.php:31
+#: includes/locations/post-type-archive.php:320
+#: includes/locations/post-type-list.php:237
+#: includes/locations/taxonomy-list.php:223
+msgid "All"
+msgstr "Alle"
+
+#: includes/fields/field-button.php:20 includes/modules/form/module-form.php:91
+#: includes/modules/option/module-option.php:511
+msgid "Submit"
+msgstr "Verzenden"
+
+#: includes/fields/field-button.php:17 includes/fields/field-button.php:92
+msgid "Button"
+msgstr "Knop"
+
+#: includes/fields/field-button.php:78
+msgid "Button value"
+msgstr "Knop waarde"
+
+#: includes/fields/field-button.php:99
+msgid "Button attributes"
+msgstr "Knop attributen"
+
+#: includes/fields-settings/validation.php:193
+msgid "Rules"
+msgstr "Regels"
+
+#: includes/acfe-user-functions.php:23
+msgid "Super Admin"
+msgstr "Superbeheerder"
+
+#: includes/field-groups/field-group.php:181
+#: includes/fields-settings/permissions.php:23
+msgid "Permissions"
+msgstr "Rechten"
+
+#. Plugin Name of the plugin
+#: acf-extended.php
+msgid "Advanced Custom Fields: Extended"
+msgstr "Advanced Custom Fields: Extended"
+
+#: includes/field-groups/field-group-meta.php:147
+#: includes/field-groups/field-group-meta.php:159
+#: includes/fields-settings/data.php:93
+msgid "Data"
+msgstr "Gegevens"
+
+#: includes/field-groups/field-group-meta.php:81
+#: includes/fields/field-hidden.php:66 includes/modules/dev/module-dev.php:437
+#: includes/modules/option/module-option-table.php:227
+#: includes/modules/option/module-option.php:396
+#: includes/modules/option/module-option.php:427
+#: includes/modules/option/module-option.php:460
+msgid "Value"
+msgstr "Waarde"
+
+#: includes/acfe-field-group-functions.php:555
+#: includes/field-groups/field-group-meta.php:64
+msgid "Key"
+msgstr "Sleutel"
+
+#: includes/fields-settings/validation.php:198
+msgid "+ AND"
+msgstr "+ EN"
+
+#: includes/admin/settings.php:534 includes/admin/settings.php:695
+#: includes/admin/settings.php:705 includes/fields-settings/settings.php:136
+#: includes/fields/field-flexible-content.php:92
+#: includes/modules/form/module-form-fields.php:1257
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/field-groups/field-groups.php:105
+#: includes/field-groups/field-groups.php:115
+#: includes/field-groups/field-groups.php:144
+#: includes/field-groups/field-groups.php:168
+msgid "Location"
+msgstr "Locatie"
+
+#: includes/field-groups/field-groups.php:121
+#: includes/field-groups/field-groups.php:147
+#: includes/field-groups/field-groups.php:171
+#: includes/modules/form/module-form-action-post.php:1650
+#: includes/modules/form/module-form-action-term.php:1017
+#: includes/modules/form/module-form-action-user.php:1872
+msgid "Load"
+msgstr "Laden"
+
+#: includes/field-groups/field-groups.php:125
+msgid "PHP Sync"
+msgstr "PHP sync"
+
+#: includes/field-groups/field-groups.php:129
+msgid "Json Sync"
+msgstr "JSON sync"
+
+#: includes/field-groups/field-group-category.php:55
+#: includes/field-groups/field-group-category.php:56
+msgctxt "Category"
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/field-groups/field-group-category.php:57
+msgid "Search categories"
+msgstr "Categorieën zoeken"
+
+#: includes/field-groups/field-group-category.php:58
+msgid "All categories"
+msgstr "Alle categorieën"
+
+#: includes/field-groups/field-group-category.php:59
+msgid "Parent category"
+msgstr "Hoofdcategorie"
+
+#: includes/field-groups/field-group-category.php:60
+msgid "Parent category:"
+msgstr "Hoofdcategorie:"
+
+#: includes/field-groups/field-group-category.php:61
+msgid "Edit category"
+msgstr "Categorie bewerken"
+
+#: includes/field-groups/field-group-category.php:62
+msgid "Update category"
+msgstr "Categorie updaten"
+
+#: includes/field-groups/field-group-category.php:63
+msgid "Add New category"
+msgstr "Nieuwe categorie toevoegen"
+
+#: includes/field-groups/field-group-category.php:65
+msgid "category"
+msgstr "categorie"
+
+#: includes/field-groups/field-group-category.php:80
+#: includes/field-groups/field-group-category.php:147
+#: includes/fields/field-flexible-content-select.php:194
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/field-groups/field-group-meta.php:101
+msgid "Note"
+msgstr "Notitie"
+
+#: includes/field-groups/field-group-meta.php:105
+msgid "Add personal note. Only visible to administrators"
+msgstr "Voeg een persoonlijke notitie toe. Alleen zichtbaar voor administrators"
+
+#: includes/field-groups/field-group.php:164
+msgid "Auto Sync"
+msgstr "Automatisch synchroniseren"
+
+#: includes/field-groups/field-group.php:49
+#: includes/fields-settings/settings.php:99
+msgid "Advanced Settings"
+msgstr "Geavanceerde instellingen"
+
+#: includes/field-groups/field-group-meta.php:48
+msgid "Custom meta data"
+msgstr "Aangepaste metagegevens"
+
+#: includes/field-groups/field-group-meta.php:115
+msgid "Field group data"
+msgstr "Veldgroep-gegevens"
+
+#: includes/field-groups/field-group-category.php:64
+msgid "New category name"
+msgstr "Nieuwe categorienaam"
+
+#: includes/field-groups/field-group.php:97
+msgid "Display title"
+msgstr "Weergave titel"
+
+#: includes/fields-settings/validation.php:159
+msgid "Validate value against rules"
+msgstr "Valideer waarde aan de hand van regels"
+
+#: includes/field-groups/field-group.php:185
+msgid "Select user roles that are allowed to view and edit this field group in post edition"
+msgstr "Selecteer gebruikersrollen die deze veldgroep mogen zien en bewerken in de bericht editor"
+
+#: includes/field-groups/field-group.php:98
+msgid "Render this title on edit post screen"
+msgstr "Toon deze titel op het bericht bewerkingsscherm"
+
+#: includes/modules/form/module-form-action-user.php:1233
+#: includes/modules/form/module-form-fields.php:1740
+msgid "Validation"
+msgstr "Validatie"
