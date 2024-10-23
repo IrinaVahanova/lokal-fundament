@@ -149,6 +149,7 @@ function fundament_media_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'fundament_media_scripts' );
 
+
 /**
  * Implement the Custom Header feature.
  */
