@@ -1,0 +1,33 @@
+.blog {
+    .post-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+  
+    .post-item {
+      background-color: $white;
+      border-radius: 8px;
+      padding: 16px;
+  
+      h2 {
+        font-size: $font-size-h2;
+        color: $black;
+      }
+  
+      p {
+        font-size: $font-size-body;
+        color: $black;
+      }
+  
+      .read-more {
+        font-size: $font-size-body;
+        color: $primary-color;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: $font-family-primary;
+    font-size: $font-size-body;
+    color: $black;
+    background-color: $light-grey;
+    line-height: $line-height-body;
+  }
+  

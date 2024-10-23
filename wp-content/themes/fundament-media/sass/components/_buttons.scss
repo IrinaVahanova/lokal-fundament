@@ -1,0 +1,26 @@
+.button {
+    display: inline-block;
+    padding: 16px 24px;
+    font-size: $font-size-body;
+    font-weight: $font-weight-bold;
+    background-color: $primary-color;
+    color: $white;
+    border-radius: 8px;
+    text-align: center;
+  
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+  
+  .button-outline {
+    background-color: transparent;
+    border: 2px solid $primary-color;
+    color: $primary-color;
+  
+    &:hover {
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+  

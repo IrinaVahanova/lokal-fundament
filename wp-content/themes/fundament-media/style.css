@@ -1,5 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: pink;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #F5F5F5;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #000000;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000000;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+a {
+  color: #FFCA10;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: #FFFFFF;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+.header .logo img {
+  height: 40px;
+}
+.header .menu {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+.header .menu li a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+.header .menu li a:hover {
+  color: #FFCA10;
+}
+
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.footer .social-icons {
+  display: flex;
+  gap: 16px;
+}
+.footer .social-icons a {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.footer .social-icons a:hover {
+  color: #FFCA10;
+}
+.footer .copyright {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.button {
+  display: inline-block;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #FFCA10;
+  color: #FFFFFF;
+  border-radius: 8px;
+  text-align: center;
+}
+.button:hover {
+  background-color: rgb(220, 171.2133891213, 0);
+}
+
+.button-outline {
+  background-color: transparent;
+  border: 2px solid #FFCA10;
+  color: #FFCA10;
+}
+.button-outline:hover {
+  background-color: #FFCA10;
+  color: #FFFFFF;
+}
+
+.homepage .hero {
+  background-image: url("../images/hero-bg.jpg");
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage .hero .hero-text {
+  color: #FFFFFF;
+  text-align: center;
+}
+.homepage .hero .hero-text h1 {
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.blog .post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+.blog .post-item {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 16px;
+}
+.blog .post-item h2 {
+  font-size: 20px;
+  color: #000000;
+}
+.blog .post-item p {
+  font-size: 16px;
+  color: #000000;
+}
+.blog .post-item .read-more {
+  font-size: 16px;
+  color: #FFCA10;
+}
+.blog .post-item .read-more:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
