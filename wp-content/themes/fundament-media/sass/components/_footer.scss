@@ -1,0 +1,30 @@
+.footer {
+    background-color: $black;
+    color: $white;
+    height: 96px; // для десктопа
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  
+    .social-icons {
+      display: flex;
+      gap: 16px;
+  
+      a {
+        color: $white;
+        font-size: 24px;
+  
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  
+    .copyright {
+      font-size: $font-size-footer;
+      font-weight: $font-weight-regular;
+      line-height: $line-height-footer;
+    }
+  }
+  

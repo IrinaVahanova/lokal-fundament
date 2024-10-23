@@ -1,0 +1,30 @@
+h1 {
+    font-size: $font-size-h1;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-h1;
+    color: $black;
+  }
+  
+  h2 {
+    font-size: $font-size-h2;
+    font-weight: $font-weight-bold;
+    line-height: 28px; // Учитывая информацию о H2
+    color: $black;
+  }
+  
+  p {
+    font-size: $font-size-body;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-body;
+    color: $black;
+  }
+  
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  

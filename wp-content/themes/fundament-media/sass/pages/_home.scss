@@ -1,0 +1,21 @@
+.homepage {
+    .hero {
+      background-image: url('../images/hero-bg.jpg');
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .hero-text {
+        color: $white;
+        text-align: center;
+  
+        h1 {
+          font-size: $font-size-h1;
+          line-height: $line-height-h1;
+          color: $white;
+        }
+      }
+    }
+  }
+  
