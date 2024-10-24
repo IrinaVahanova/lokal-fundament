@@ -1,33 +1,197 @@
-.blog {
-    .post-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 24px;
+.blog-container {
+  padding: 64px 24px;
+
+  h2 {
+    @include responsive-font-size(24px, $font-size-h2); // Adaptive heading size
+    font-weight: $font-weight-bold;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    background-color: $white;
+    padding: 8px 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    input {
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 12px;
+      font-size: $font-size-body;
+      background-color: transparent;
+  
+      &:focus {
+        outline: none;
+      }
+  
+      &::placeholder {
+        color: $secondary-color;
+      }
     }
   
-    .post-item {
-      background-color: $white;
-      border-radius: 8px;
-      padding: 16px;
+    button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      font-size: 20px;
+      margin-left: 8px;
+      color: $black;
   
-      h2 {
-        font-size: $font-size-h2;
-        color: $black;
-      }
-  
-      p {
-        font-size: $font-size-body;
-        color: $black;
-      }
-  
-      .read-more {
-        font-size: $font-size-body;
+      &:hover {
         color: $primary-color;
-  
+      }
+
+      i {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .post-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // 3-column grid on desktop
+    gap: 24px;
+  }
+
+  /*.post-item {
+    background-color: $white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    .post-thumbnail {
+      img {
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .post-content {
+      h3 {
+        @include responsive-font-size(18px, 20px);
+        margin-top: 16px;
+        font-weight: $font-weight-bold;
+      }
+
+      .post-date {
+        color: $secondary-color;
+        font-size: 14px;
+        margin-top: 8px;
+      }
+
+      .post-excerpt {
+        margin-top: 16px;
+        font-size: $font-size-body;
+      }
+
+      .read-more {
+        display: inline-block;
+        margin-top: 16px;
+        color: $primary-color;
+        text-decoration: none;
+
         &:hover {
           text-decoration: underline;
         }
       }
     }
+  }*/
+
+  .post-item {
+    background-color: $white;
+    border-radius: 16px; // Скругляем углы карточки
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    .post-thumbnail {
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px 16px 0 0; // Скругляем только верхние углы изображения
+      }
+    }
+  
+    .post-content {
+      margin-top: 16px;
+  
+      .post-category {
+        background-color: $primary-color;
+        color: $white;
+        font-size: 12px;
+        font-weight: $font-weight-bold;
+        padding: 4px 8px;
+        display: inline-block;
+        border-radius: 4px;
+        margin-bottom: 8px;
+      }
+  
+      h3 {
+        font-size: $font-size-h2;
+        font-weight: $font-weight-bold;
+        margin-bottom: 8px;
+      }
+  
+      .post-excerpt {
+        font-size: $font-size-body;
+        color: $black;
+        margin-bottom: 16px;
+      }
+  
+      .read-more {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: $font-size-body;
+        font-weight: $font-weight-bold;
+        color: $black;;
+        border: 2px solid $black;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+  
+        &:hover {
+          background-color: $primary-color;
+          color: $white;
+        }
+      }
+    }
   }
   
+
+}
+
+@media (max-width: 768px) {
+  .blog-container {
+    padding: 32px 16px;
+
+    .post-list {
+      grid-template-columns: 1fr; // Single-column grid on mobile
+    }
+
+    .search-bar {
+      flex-direction: column;
+
+      input {
+        width: 100%;
+        margin-bottom: 16px;
+      }
+
+      button {
+        width: 100%; // Full-width button on mobile
+      }
+    }
+  }
+}

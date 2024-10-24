@@ -1,21 +1,56 @@
-.homepage {
-    .hero {
-      background-image: url('../images/hero-bg.jpg');
-      height: 500px;
+.hero {
+  position: relative;
+  height: 500px; // Height of the banner on desktop
+  background-image: url('../fundament-media/assets/images/banner-home.png');
+  background-size: cover;
+  background-position: center;
+
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: $white;
+
+    h1 {
+      @include responsive-font-size(28px, $font-size-h1); // Responsive font size
+      font-weight: $font-weight-bold;
+    }
+
+    p {
+      font-size: $font-size-body;
+    }
+
+    .cta-buttons {
       display: flex;
+      gap: 16px;
       justify-content: center;
-      align-items: center;
-  
-      .hero-text {
-        color: $white;
-        text-align: center;
-  
-        h1 {
-          font-size: $font-size-h1;
-          line-height: $line-height-h1;
-          color: $white;
-        }
+      margin-top: 24px;
+
+      a {
+        @include button; // Use the mixin for buttons
+      }
+
+      .button-outline {
+        @include button-outline; // Use the mixin for outline buttons
       }
     }
   }
-  
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 300px; // Reduce banner height on mobile
+
+    .hero-text {
+      h1 {
+        font-size: 24px; // Font size on mobile
+      }
+
+      .cta-buttons {
+        flex-direction: column; // Buttons should be stacked vertically on mobile
+      }
+    }
+  }
+}

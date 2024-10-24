@@ -1,0 +1,147 @@
+// _mixins.scss
+
+// Mixin for flexbox layout
+@mixin flex-center($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+  
+  // Mixin for responsive font sizes
+  // This mixin helps to adjust font size between mobile and desktop devices
+  @mixin responsive-font-size($mobile-size, $desktop-size) {
+    font-size: $mobile-size;
+  
+    @media (min-width: 768px) {
+      font-size: $desktop-size;
+    }
+  }
+  
+  // Mixin for responsive padding
+  // This mixin allows flexible padding adjustments for mobile and desktop views
+  @mixin responsive-padding($mobile-padding, $desktop-padding) {
+    padding: $mobile-padding;
+  
+    @media (min-width: 768px) {
+      padding: $desktop-padding;
+    }
+  }
+  
+  // Mixin for responsive margins
+  // This mixin handles the different margins required for mobile and desktop
+  @mixin responsive-margin($mobile-margin, $desktop-margin) {
+    margin: $mobile-margin;
+  
+    @media (min-width: 768px) {
+      margin: $desktop-margin;
+    }
+  }
+  
+  // Mixin for container width
+  // Ensures the container takes up to 100% of the screen on mobile, and a max width on desktop
+  @mixin container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  // Mixin for clearfix (to clear floated elements)
+  // This mixin is useful for ensuring parent containers are aware of floating children
+  @mixin clearfix {
+    &::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+  
+  // Mixin for media queries for different screen sizes
+  // These breakpoints help create responsive layouts for various devices
+  @mixin breakpoint($size) {
+    @if $size == phone {
+      @media (max-width: 599px) { @content; }
+    }
+    @else if $size == tablet {
+      @media (min-width: 600px) and (max-width: 1023px) { @content; }
+    }
+    @else if $size == desktop {
+      @media (min-width: 1024px) { @content; }
+    }
+  }
+  
+  // Mixin for border-radius
+  // Provides a quick way to add consistent rounded corners to elements
+  @mixin border-radius($radius) {
+    border-radius: $radius;
+  }
+  
+  // Mixin for box-shadow
+  // This mixin can add a customizable shadow effect to any element
+  @mixin box-shadow($x: 0, $y: 4px, $blur: 6px, $spread: 0, $color: rgba(0, 0, 0, 0.1)) {
+    box-shadow: $x $y $blur $spread $color;
+  }
+  
+  // Mixin for text truncation (ellipsis)
+  // This helps to truncate long text and add an ellipsis when text overflows
+  @mixin text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  // Mixin for background image
+  // Helps with adding background images and controlling their size and position
+  @mixin background-image($image, $size: cover, $position: center) {
+    background-image: url($image);
+    background-size: $size;
+    background-position: $position;
+    background-repeat: no-repeat;
+  }
+  
+  // Mixin for transitions
+  // Adds smooth transitions for hover effects and other animations
+  @mixin transition($properties: all, $duration: 0.3s, $timing-function: ease-in-out) {
+    transition: $properties $duration $timing-function;
+  }
+  
+  // Mixin for standard button styles
+@mixin button {
+    display: inline-block;
+    padding: 16px 24px;
+    font-size: $font-size-body;
+    font-weight: $font-weight-bold;
+    background-color: $primary-color;
+    color: $white;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+  
+  // Mixin for outline button styles
+  @mixin button-outline {
+    display: inline-block;
+    padding: 16px 24px;
+    font-size: $font-size-body;
+    font-weight: $font-weight-bold;
+    background-color: transparent;
+    color: $primary-color;
+    border: 2px solid $primary-color;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    
+    &:hover {
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+  

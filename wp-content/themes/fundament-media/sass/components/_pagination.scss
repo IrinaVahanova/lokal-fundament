@@ -1,0 +1,38 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  
+    .page-number,
+    .current-page {
+      @include responsive-font-size(14px, 16px);
+      padding: 12px 16px;
+      border: 1px solid $secondary-color;
+      margin: 0 4px;
+      border-radius: 50%;
+      color: $black;
+      text-decoration: none;
+  
+      &:hover {
+        background-color: $primary-color;
+        color: $white;
+      }
+    }
+  
+    .current-page {
+      background-color: $primary-color;
+      color: $white;
+      pointer-events: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .pagination {
+      .page-number,
+      .current-page {
+        padding: 8px 12px; 
+      }
+    }
+  }
+  
