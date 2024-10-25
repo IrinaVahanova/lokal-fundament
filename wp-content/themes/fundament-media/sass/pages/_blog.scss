@@ -62,54 +62,10 @@
     gap: 24px;
   }
 
-  /*.post-item {
-    background-color: $white;
-    border-radius: 8px;
-    padding: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-    .post-thumbnail {
-      img {
-        border-radius: 8px;
-        width: 100%;
-        height: auto;
-      }
-    }
-
-    .post-content {
-      h3 {
-        @include responsive-font-size(18px, 20px);
-        margin-top: 16px;
-        font-weight: $font-weight-bold;
-      }
-
-      .post-date {
-        color: $secondary-color;
-        font-size: 14px;
-        margin-top: 8px;
-      }
-
-      .post-excerpt {
-        margin-top: 16px;
-        font-size: $font-size-body;
-      }
-
-      .read-more {
-        display: inline-block;
-        margin-top: 16px;
-        color: $primary-color;
-        text-decoration: none;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }*/
 
   .post-item {
     background-color: $white;
-    border-radius: 16px; // Скругляем углы карточки
+    border-radius: 16px; 
     padding: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -120,7 +76,7 @@
       img {
         width: 100%;
         height: auto;
-        border-radius: 16px 16px 0 0; // Скругляем только верхние углы изображения
+        border-radius: 16px 16px 0 0;
       }
     }
   
@@ -168,8 +124,7 @@
         }
       }
     }
-  }
-  
+  } 
 
 }
 
