@@ -65,49 +65,61 @@ $blog_query = new WP_Query($args);
     
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            let currentPage = <?php echo $paged; ?>;
-            let maxPages = <?php echo $blog_query->max_num_pages; ?>;
+    let currentPage = <?php echo $paged; ?>;
+    let maxPages = <?php echo $blog_query->max_num_pages; ?>;
 
-            // Render pagination
-            function renderPagination(current, max) {
-                let paginationHTML = '';
-                for (let i = 1; i <= max; i++) {
-                    if (i == current) {
-                        paginationHTML += `<span class="current-page">${i}</span>`;
-                    } else {
-                        paginationHTML += `<a href="?paged=${i}" class="page-number">${i}</a>`;
-                    }
-                }
-                document.getElementById('pagination').innerHTML = paginationHTML;
+    // Render pagination
+    function renderPagination(current, max) {
+        let paginationHTML = '';
+        for (let i = 1; i <= max; i++) {
+            if (i == current) {
+                paginationHTML += `<span class="current-page">${i}</span>`;
+            } else {
+                paginationHTML += `<a href="#" class="page-number" data-page="${i}">${i}</a>`;
             }
+        }
+        document.getElementById('pagination').innerHTML = paginationHTML;
+    }
 
-            renderPagination(currentPage, maxPages);
+    renderPagination(currentPage, maxPages);
 
-            // Search posts by keywords
-            function searchPosts() {
-                let input = document.getElementById('searchInput').value.toLowerCase();
-                let posts = document.querySelectorAll('.post-item');
-
-                posts.forEach(function(post) {
-                    let title = post.querySelector('h3').innerText.toLowerCase();
-                    if (title.includes(input)) {
-                        post.style.display = 'block';
-                    } else {
-                        post.style.display = 'none';
-                    }
-                });
-            }
-
-            // Add event listener to the search button (use getElementById for more clarity)
-            document.getElementById('searchButton').addEventListener('click', function() {
-                searchPosts(); // Execute search when search button is clicked
-            });
-
-            // Add event listener to the search input (auto search on typing)
-            document.getElementById('searchInput').addEventListener('input', function() {
-                searchPosts(); // Execute search when user types in the input field
-            });
+    // Event listener for pagination links
+    document.querySelectorAll('.page-number').forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const page = this.getAttribute('data-page');
+            window.location.href = `<?php echo get_pagenum_link(); ?>page/${page}`;
         });
+    });
+
+    // Search posts by keywords
+    function searchPosts() {
+        let input = document.getElementById('searchInput').value.toLowerCase();
+        let posts = document.querySelectorAll('.post-item');
+
+        posts.forEach(function(post) {
+            let title = post.querySelector('h3').innerText.toLowerCase();
+            if (title.includes(input)) {
+                post.style.display = 'block';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+    }
+
+    // Add event listener to the search button
+    document.getElementById('searchButton').addEventListener('click', function() {
+        searchPosts();
+    });
+
+    // Add event listener to the search input for real-time searching
+    document.getElementById('searchInput').addEventListener('input', function() {
+        searchPosts();
+    });
+});
+
+
+
     </script>
 </div>
 

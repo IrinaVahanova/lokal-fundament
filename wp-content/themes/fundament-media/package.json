@@ -36,8 +36,7 @@
     "map": false
   },
   "scripts": {
-    "watch:sass": "node-sass --watch sass/style.scss style.css --output-style expanded",
-    "watch": "sass sass/ --source-map true --style expanded --watch",
+    "watch:sass": "sass --watch sass/style.scss:style.css --style expanded",
     "sass": "sass --watch sass/style.scss:style.css",
     "compile:css": "node-sass sass/ -o ./ && stylelint '*.css' --fix || true && stylelint '*.css' --fix",
     "compile:rtl": "rtlcss style.css style-rtl.css",

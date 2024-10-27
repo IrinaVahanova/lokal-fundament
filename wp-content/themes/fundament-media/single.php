@@ -2,39 +2,64 @@
 /**
  * The template for displaying all single posts
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
  * @package fundament-media
  */
 
+// Include the header template
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+<main id="primary" class="site-main">
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+    <?php
+    // Start the loop to display the post content
+    while ( have_posts() ) :
+        the_post();
+    ?>
 
-			get_template_part( 'template-parts/content', get_post_type() );
+    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+        <div class="single-post-container">
+            <?php 
+            // Check if the post has a featured image and display it
+            if ( has_post_thumbnail() ) : ?>
+                <div class="post-thumbnail">
+                    <?php the_post_thumbnail( 'full' ); // Display the full-size featured image ?>
+                </div>
+            <?php endif; ?>
 
-			the_post_navigation(
-				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'fundament-media' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'fundament-media' ) . '</span> <span class="nav-title">%title</span>',
-				)
-			);
+            <div class="post-content">
+                <header class="entry-header">
+                    <h1 class="entry-title"><?php the_title(); // Display the post title ?></h1>
+                    <div class="post-meta">
+                        <span class="post-category"><?php the_category( ', ' ); // Display the categories of the post ?></span>
+                        <span class="post-date"><?php echo get_the_date(); // Display the post publication date ?></span> |
+                        <span class="post-author"><?php esc_html_e( 'Geplaatst door', 'fundament-media' ); ?> <?php the_author(); // Display the author's name ?></span>
+                    </div>
+                </header>
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+                <div class="entry-content">
+                    <?php the_content(); // Display the post content ?>
+                </div>
 
-		endwhile; // End of the loop.
-		?>
+                <footer class="entry-footer">
+                    <div class="social-share">
+                        <span><?php esc_html_e( 'Deel', 'fundament-media' ); // Display the "Share" label ?></span>
+                        <!-- Social media share buttons -->
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </article>
 
-	</main><!-- #main -->
+    <?php
+    endwhile; // End of the loop.
+    ?>
+
+</main><!-- #main -->
 
 <?php
-get_sidebar();
+// Include the footer template
 get_footer();

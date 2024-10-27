@@ -1,30 +1,52 @@
-.footer {
-    background-color: $black;
-    color: $white;
-    height: 96px; // для десктопа
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-  
-    .social-icons {
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: $black;
+  color: $white;
+  height: 96px;
+
+  .footer-social {
       display: flex;
       gap: 16px;
-  
-      a {
-        color: $white;
-        font-size: 24px;
-  
-        &:hover {
-          color: $primary-color;
-        }
+
+      .social-icon {
+          font-size: 24px;
+          color: $white;
+          transition: color 0.3s ease-in-out;
+
+          &:hover {
+              color: $primary-color; 
+          }
       }
-    }
-  
-    .copyright {
-      font-size: $font-size-footer;
-      font-weight: $font-weight-regular;
-      line-height: $line-height-footer;
-    }
   }
-  
+
+  .footer-copyright {
+      font-size: $font-size-footer;
+      line-height: $line-height-footer;
+      font-weight: $font-weight-regular;
+      text-align: right;
+  }
+  p {
+    color: $white;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+      @include flex-center; 
+      flex-direction: column;
+      height: 390px;
+      padding: 24px;
+
+      .footer-social {
+          margin-bottom: 16px;
+      }
+
+      .footer-copyright {
+          margin-top: 8px;
+          text-align: center;
+      }
+  }
+}
