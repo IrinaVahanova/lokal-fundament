@@ -82,15 +82,6 @@ $blog_query = new WP_Query($args);
     }
 
     renderPagination(currentPage, maxPages);
-
-    // Event listener for pagination links
-    // document.querySelectorAll('.page-number').forEach(link => {
-    //     link.addEventListener('click', function(event) {
-    //         event.preventDefault();
-    //         const page = this.getAttribute('data-page');
-    //         window.location.href = `<?php echo get_pagenum_link(); ?>page/${page}`;
-    //     });
-    // });
    
 
 document.querySelectorAll('.page-number').forEach(link => {
@@ -101,8 +92,6 @@ document.querySelectorAll('.page-number').forEach(link => {
         window.location.href = newUrl;
     });
 });
-
-
 
     // Search posts by keywords
     function searchPosts() {
