@@ -177,3 +177,12 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// Add click event listeners to all pagination links
+function adjust_main_query($query) {
+    if (!is_admin() && $query->is_main_query() && $query->is_home()) {
+        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+        $query->set('paged', $paged);
+        $query->set('posts_per_page', 6);
+    }
+}
+add_action('pre_get_posts', 'adjust_main_query');
