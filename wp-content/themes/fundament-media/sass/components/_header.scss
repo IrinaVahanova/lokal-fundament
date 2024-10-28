@@ -1,11 +1,11 @@
 body.single .site-header {
-    background-color: $white; 
-    
+    background-color: $white;
+
 }
 
 body:not(.single) .site-header {
-    background-color: $light-grey; 
-  
+    background-color: $light-grey;
+
 }
 
 .header-container {
@@ -79,21 +79,19 @@ body:not(.single) .site-header {
 
                 }
             }
-              
- 
 
-  li:hover ~ li:first-child a::after {
-    width: 0; 
-  }
+            li:hover~li:first-child a::after {
+                width: 0;
+            }
 
- 
-  li .current-menu-item ~ li:first-child a::after {
-    width: 0; 
-  }
 
-  li a:hover ~ li:first-child a::after {
-    width: 0;
-  }
+            li .current-menu-item~li:first-child a::after {
+                width: 0;
+            }
+
+            li a:hover~li:first-child a::after {
+                width: 0;
+            }
         }
 
         .menu-toggle {

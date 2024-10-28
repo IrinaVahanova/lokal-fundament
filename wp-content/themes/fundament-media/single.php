@@ -8,15 +8,12 @@
 // Include the header template
 get_header();
 ?>
-
-<main id="primary" class="site-main">  
-
+<main id="primary" class="site-main">
     <?php
     // Start the loop to display the post content
     while (have_posts()):
         the_post();
         ?>
-
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <div class="single-post-container">
                 <?php
@@ -25,9 +22,7 @@ get_header();
                     <div class="post-thumbnail">
                         <?php the_post_thumbnail('full'); // Display the full-size featured image ?>
                     </div>
-
                 <?php endif; ?>
-
                 <div class="post-content">
                     <header class="entry-header">
                         <h1 class="entry-title"><?php the_title(); // Display the post title ?></h1>
@@ -43,11 +38,11 @@ get_header();
                     </header>
 
                     <!-- Here we insert the custom field for the introduction -->
-                <?php if( get_field('inleiding') ): ?>
-                    <div class="post-intro">
-                        <?php the_field('inleiding'); ?>
-                    </div>
-                <?php endif; ?>
+                    <?php if (get_field('inleiding')): ?>
+                        <div class="post-intro">
+                            <?php the_field('inleiding'); ?>
+                        </div>
+                    <?php endif; ?>
 
                     <div class="entry-content">
                         <?php the_content(); // Display the post content ?>
@@ -70,9 +65,7 @@ get_header();
         <?php
     endwhile; // End of the loop.
     ?>
-
 </main><!-- #main -->
-
 <?php
 // Include the footer template
 get_footer();

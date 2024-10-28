@@ -1,126 +1,127 @@
 .single-post #primary {
   background-color: $white;
 }
+
 .single-post-container {
-    max-width: 1180px;
-    padding: 0 5%;
-    padding: 24px;
-    background-color: $white;
-    margin: auto;
-  
-    .post-thumbnail {
-      border-radius: 0 !important;
-      overflow: hidden;
-      img {
-        width: 100%;
-        height: auto;
+  max-width: 1180px;
+  padding: 0 5%;
+  padding: 24px;
+  background-color: $white;
+  margin: auto;
+
+  .post-thumbnail {
+    border-radius: 0 !important;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .post-content {
+    padding: 32px 0;
+    max-width: 780px;
+    margin: 0 auto;
+
+    .entry-header {
+      margin-bottom: 10px;
+
+      .entry-title {
+        font-size: 28px;
+        font-weight: 700;
+        color: $black;
+        margin-bottom: 8px;
+      }
+
+      .post-category {
+        background-color: $primary-color;
+        color: $white;
+        font-weight: 700;
+        padding: 4px 8px;
+        border-radius: 4px;
+        padding: 1px 13px;
+        display: inline-block;
+        border-radius: 60px;
+
+        a {
+          color: $black;
+        }
+      }
+
+      .post-meta {
+        font-size: 14px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-top: 7px;
+        font-weight: 700;
       }
     }
-  
-    .post-content {
-      padding: 32px 0;
-      max-width: 780px;
-      margin: 0 auto;
-  
-      .entry-header {
-        margin-bottom: 10px;
-        
-        .entry-title {
-          font-size: 28px;
+
+    .entry-content {
+      font-size: 16px;
+      line-height: 1.6;
+      color: $black;
+      margin-bottom: 32px;
+
+      p {
+        margin-bottom: 16px;
+      }
+    }
+
+    .entry-footer {
+      border-top: 1px solid $light-grey;
+      padding-top: 16px;
+      display: flex;
+      gap: 16px;
+
+      .social-share {
+        display: flex;
+        gap: 8px;
+
+        span {
+          font-size: 14px;
           font-weight: 700;
           color: $black;
-          margin-bottom: 8px;
         }
-   .post-category {
-            background-color: $primary-color;
-            color: $white;
-            font-weight: 700;
-            padding: 4px 8px;
-            border-radius: 4px;
-            padding: 1px 13px;
-    display: inline-block;
-    border-radius: 60px;
 
-            a {
-              color: $black;
-            }
-          }
-        .post-meta {
-          font-size: 14px;
-          display: flex;
-          gap: 8px;
-          align-items: center;
-          margin-top: 7px;
-          font-weight: 700;
-  
-         
-        }
-      }
-  
-      .entry-content {
-        font-size: 16px;
-        line-height: 1.6;
-        color: $black;
-        margin-bottom: 32px;
-  
-        p {
-          margin-bottom: 16px;
-        }
-      }
-  
-      .entry-footer {
-        border-top: 1px solid $light-grey;
-        padding-top: 16px;
-        display: flex;
-        gap: 16px;
-  
-        .social-share {
-          display: flex;
-          gap: 8px;
-  
-          span {
-            font-size: 14px;
-            font-weight: 700;
-            color: $black;
-          }
-  
-          .social-icon {
-            font-size: 20px;
-            color: $black;
-            transition: color 0.3s ease;
-  
-            &:hover {
-              color: $primary-color;
-            }
+        .social-icon {
+          font-size: 20px;
+          color: $black;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: $primary-color;
           }
         }
       }
     }
   }
-  
-  @media (max-width: 768px) {
-    .single-post-container {
+}
+
+@media (max-width: 768px) {
+  .single-post-container {
+    padding: 16px;
+
+    .post-content {
       padding: 16px;
-  
-      .post-content {
-        padding: 16px;
-  
-        .entry-header {
-          .entry-title {
-            font-size: 24px;
-          }
+
+      .entry-header {
+        .entry-title {
+          font-size: 24px;
         }
-  
-        .entry-content {
-          font-size: 14px;
-        }
-  
-        .entry-footer {
-          flex-direction: column;
-          align-items: center;
-          gap: 12px;
-        }
+      }
+
+      .entry-content {
+        font-size: 14px;
+      }
+
+      .entry-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
       }
     }
   }
-  
+}
