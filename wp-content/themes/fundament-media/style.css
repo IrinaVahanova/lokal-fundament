@@ -43,6 +43,14 @@ a:hover {
   text-decoration: underline;
 }
 
+body.single .site-header {
+  background-color: #FFFFFF;
+}
+
+body:not(.single) .site-header {
+  background-color: #F5F5F5;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -540,7 +548,7 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
-#primary {
+.single-post #primary {
   background-color: #FFFFFF;
 }
 
@@ -664,6 +672,10 @@ a:hover {
   color: #000000;
   margin-top: 8px;
 }
+.blog-category .search_result {
+  text-align: center;
+  margin-bottom: 35px;
+}
 .blog-category .post-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -712,6 +724,10 @@ a:hover {
   .blog-category .pagination .current-page {
     padding: 8px 12px;
   }
+}
+body.archive .post-category a {
+  pointer-events: none;
+  cursor: default;
 }
 
 /*# sourceMappingURL=style.css.map */

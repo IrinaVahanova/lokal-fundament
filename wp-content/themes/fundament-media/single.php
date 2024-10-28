@@ -9,12 +9,7 @@
 get_header();
 ?>
 
-<main id="primary" class="site-main">
-    <style>
-        .site-header {
-            background-color: #FFFFFF;
-        }
-    </style>
+<main id="primary" class="site-main">  
 
     <?php
     // Start the loop to display the post content
@@ -47,6 +42,13 @@ get_header();
                         </div>
                     </header>
 
+                    <!-- Here we insert the custom field for the introduction -->
+                <?php if( get_field('inleiding') ): ?>
+                    <div class="post-intro">
+                        <?php the_field('inleiding'); ?>
+                    </div>
+                <?php endif; ?>
+
                     <div class="entry-content">
                         <?php the_content(); // Display the post content ?>
                     </div>
@@ -74,3 +76,4 @@ get_header();
 <?php
 // Include the footer template
 get_footer();
+?>
