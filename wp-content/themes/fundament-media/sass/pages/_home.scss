@@ -1,9 +1,9 @@
 .hero {
   position: relative;
-  height: 500px; // Height of the banner on desktop
-  background-image: url('../fundament-media/assets/images/banner-home.png');
+  height: 743px; // Height of the banner on desktop
+  background-image: url('../fundament-media/assets/images/hero-home.png');
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 
   .hero-text {
     position: absolute;
@@ -16,6 +16,8 @@
     h1 {
       @include responsive-font-size(28px, $font-size-h1); // Responsive font size
       font-weight: $font-weight-bold;
+      color: $white !important;
+      line-height: 50px;
     }
 
     p {
@@ -41,16 +43,22 @@
 
 @media (max-width: 768px) {
   .hero {
-    height: 300px; // Reduce banner height on mobile
+    height: 824px; // Reduce banner height on mobile
 
     .hero-text {
+      top: 35%;
+      width: 90%;
       h1 {
-        font-size: 24px; // Font size on mobile
+        font-size: 20px; // Font size on mobile
+        
       }
 
-      .cta-buttons {
-        flex-direction: column; // Buttons should be stacked vertically on mobile
-      }
+      
     }
   }
+  .blog-container {
+  h2 {
+    text-align: left !important;
+  }
+}
 }

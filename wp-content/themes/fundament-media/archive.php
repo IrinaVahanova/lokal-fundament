@@ -14,8 +14,8 @@ get_header();
 
 <div class="hero">
     <div class="hero-text">
-        <h1>Presale</h1>
-        <p>‘Maximaal inspelen van de markt’</p>
+        <h1>Presale
+        <br>‘Maximaal inspelen van de markt’</h1>
         <div class="cta-buttons">
             <a href="#" class="button">Contact</a>
             <a href="#" class="button-outline">Meer weten</a>
@@ -23,22 +23,27 @@ get_header();
     </div>
 </div>
 
-    <!-- Archive title and description -->
+   
+
+    
+    
+
+    <!-- Blog Posts List -->
+    <div class="blog-container">
+         <!-- Archive title and description -->
     <div class="category-header">
         <h1 class="category-title"><?php the_archive_title(); ?></h1>
         <div class="category-description"><?php the_archive_description(); ?></div>
     </div>
-
-    <!-- Search Form -->
+        <!-- Search Form -->
     <div class="search-bar">
-        <input type="text" id="searchInput" placeholder="Zoek...">
+        <input type="text" id="searchInput" placeholder="Nieuwbouw">
         <button id="searchButton"><i class="fas fa-search"></i></button>
     </div>
 
-    <!-- Blog Posts List -->
+    <h3><?php echo $wp_query->found_posts; ?> Resultaten gevonden</h3>
     <div class="post-list">
         <?php if ( have_posts() ) : ?>
-            <p><?php echo $wp_query->found_posts; ?> Resultaten gevonden</p>
             <?php while ( have_posts() ) : the_post(); ?>
                 <div class="post-item">
                     <a href="<?php the_permalink(); ?>">
@@ -48,8 +53,8 @@ get_header();
                             </div>
                         <?php endif; ?>
                         <div class="post-content">
-                            <span class="post-category">Blog</span>
-                            <h3><?php the_title(); ?></h3>
+                            <span class="post-category"><?php echo get_the_category_list(', '); ?></span>
+                            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             <p class="post-excerpt"><?php echo wp_trim_words( get_the_excerpt(), 20 ); ?></p>
                             <a href="<?php the_permalink(); ?>" class="read-more">Lees meer</a>
                         </div>
@@ -59,6 +64,34 @@ get_header();
         <?php else : ?>
             <p>Geen berichten gevonden.</p>
         <?php endif; ?>
+    </div>
+
+
+
+    <div class="post-list">
+        <?php if ($blog_query->have_posts()) : ?>
+            <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
+                <div class="post-item">
+                        <?php if (has_post_thumbnail()) : ?>
+                            <div class="post-thumbnail">
+                                <?php the_post_thumbnail('medium'); ?>
+                            </div>
+                        <?php endif; ?>                   
+                        <div class="post-content">
+                        <span class="post-category"><?php echo get_the_category_list(', '); ?></span>
+                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <p class="post-excerpt"><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
+                        <a href="<?php the_permalink(); ?>" class="read-more">Lees meer</a>
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        <?php else : ?>
+            <p>No posts found.</p>
+        <?php endif; ?>
+    </div>
+
+
+
     </div>
 
     <!-- Pagination -->

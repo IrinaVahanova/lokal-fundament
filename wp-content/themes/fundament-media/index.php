@@ -13,8 +13,8 @@ $blog_query = new WP_Query($args);
 
 <div class="hero">
     <div class="hero-text">
-        <h1>Presale</h1>
-        <p>‘Maximaal inspelen van de markt’</p>
+        <h1>Presale <br>
+        ‘Maximaal inspelen van de markt’</h1>
         <div class="cta-buttons">
             <a href="#" class="button">Contact</a>
             <a href="#" class="button-outline">Meer weten</a>
@@ -36,20 +36,17 @@ $blog_query = new WP_Query($args);
         <?php if ($blog_query->have_posts()) : ?>
             <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
                 <div class="post-item">
-                    <a href="<?php the_permalink(); ?>">
                         <?php if (has_post_thumbnail()) : ?>
                             <div class="post-thumbnail">
-                                <?php the_post_thumbnail('medium'); ?>
+                            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
                             </div>
-                        <?php endif; ?>
+                        <?php endif; ?>                   
                         <div class="post-content">
-                            <span class="post-category"><?php echo get_the_category_list(', '); ?></span> <!-- Add the category tag-->
-                            <h3><?php the_title(); ?></h3>
-                            <p class="post-date"><?php the_time('j F Y'); ?></p>
-                            <p class="post-excerpt"><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
-                            <a href="<?php the_permalink(); ?>" class="read-more">Lees meer</a>
-                        </div>
-                    </a>
+                        <span class="post-category"><?php echo get_the_category_list(', '); ?></span>
+                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <p class="post-excerpt"><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
+                        <a href="<?php the_permalink(); ?>" class="read-more">Lees meer</a>
+                    </div>
                 </div>
             <?php endwhile; ?>
         <?php else : ?>
@@ -68,20 +65,81 @@ $blog_query = new WP_Query($args);
     let currentPage = <?php echo $paged; ?>;
     let maxPages = <?php echo $blog_query->max_num_pages; ?>;
 
+
+
+
+
     // Render pagination
+    // function renderPagination(current, max) {
+    //     let paginationHTML = '';
+    //     for (let i = 1; i <= max; i++) {
+    //         if (i == current) {
+    //             paginationHTML += `<span class="current-page">${i}</span>`;
+    //         } else {
+    //             paginationHTML += `<a href="#" class="page-number" data-page="${i}">${i}</a>`;
+    //         }
+    //     }
+    //     document.getElementById('pagination').innerHTML = paginationHTML;
+    // }
+
+    // renderPagination(currentPage, maxPages);
+
+
+
+
+
+
+
+
+
+
     function renderPagination(current, max) {
-        let paginationHTML = '';
-        for (let i = 1; i <= max; i++) {
-            if (i == current) {
-                paginationHTML += `<span class="current-page">${i}</span>`;
-            } else {
-                paginationHTML += `<a href="#" class="page-number" data-page="${i}">${i}</a>`;
-            }
-        }
-        document.getElementById('pagination').innerHTML = paginationHTML;
+    let paginationHTML = '';
+
+    // Добавляем кнопку "Предыдущая"
+    if (current > 1) {
+        paginationHTML += `<a href="#" class="pagination-arrow" data-page="${current - 1}">&lt;</a>`;
     }
 
-    renderPagination(currentPage, maxPages);
+    // Добавляем первую страницу и многоточие, если нужно
+    if (current > 2) {
+        paginationHTML += `<a href="#" class="page-number" data-page="1">1</a>`;
+        if (current > 3) {
+            paginationHTML += `<span class="pagination-dots">...</span>`;
+        }
+    }
+
+    // Добавляем текущую страницу и соседние
+    for (let i = Math.max(1, current - 1); i <= Math.min(max, current + 1); i++) {
+        if (i === current) {
+            paginationHTML += `<span class="current-page">${i}</span>`;
+        } else {
+            paginationHTML += `<a href="#" class="page-number" data-page="${i}">${i}</a>`;
+        }
+    }
+
+    // Добавляем многоточие и последнюю страницу, если нужно
+    if (current < max - 1) {
+        if (current < max - 2) {
+            paginationHTML += `<span class="pagination-dots">...</span>`;
+        }
+        paginationHTML += `<a href="#" class="page-number" data-page="${max}">${max}</a>`;
+    }
+
+    // Добавляем кнопку "Следующая"
+    if (current < max) {
+        paginationHTML += `<a href="#" class="pagination-arrow" data-page="${current + 1}">&gt;</a>`;
+    }
+
+    document.getElementById('pagination').innerHTML = paginationHTML;
+}
+
+renderPagination(currentPage, maxPages);
+
+
+
+
+
    
 
 document.querySelectorAll('.page-number').forEach(link => {

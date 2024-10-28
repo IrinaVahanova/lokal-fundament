@@ -1,13 +1,15 @@
+#primary {
+  background-color: $white;
+}
 .single-post-container {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 5%;
     padding: 24px;
     background-color: $white;
-    border-radius: 16px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
   
     .post-thumbnail {
-      border-radius: 16px 16px 0 0;
+      border-radius: 0 !important;
       overflow: hidden;
       img {
         width: 100%;
@@ -16,34 +18,42 @@
     }
   
     .post-content {
-      padding: 32px;
+      padding: 32px 0;
+      max-width: 780px;
+      margin: 0 auto;
   
       .entry-header {
-        margin-bottom: 24px;
-        text-align: center;
-  
+        margin-bottom: 10px;
+        
         .entry-title {
           font-size: 28px;
           font-weight: 700;
           color: $black;
           margin-bottom: 8px;
         }
-  
-        .post-meta {
-          font-size: 14px;
-          color: $secondary-color;
-          display: flex;
-          gap: 8px;
-          justify-content: center;
-          align-items: center;
-  
-          .post-category {
+   .post-category {
             background-color: $primary-color;
             color: $white;
             font-weight: 700;
             padding: 4px 8px;
             border-radius: 4px;
+            padding: 1px 13px;
+    display: inline-block;
+    border-radius: 60px;
+
+            a {
+              color: $black;
+            }
           }
+        .post-meta {
+          font-size: 14px;
+          display: flex;
+          gap: 8px;
+          align-items: center;
+          margin-top: 7px;
+          font-weight: 700;
+  
+         
         }
       }
   
@@ -62,12 +72,10 @@
         border-top: 1px solid $light-grey;
         padding-top: 16px;
         display: flex;
-        justify-content: center;
         gap: 16px;
   
         .social-share {
           display: flex;
-          align-items: center;
           gap: 8px;
   
           span {
