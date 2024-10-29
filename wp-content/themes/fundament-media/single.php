@@ -43,11 +43,9 @@ get_header();
                             <?php the_field('inleiding'); ?>
                         </div>
                     <?php endif; ?>
-
                     <div class="entry-content">
                         <?php the_content(); // Display the post content ?>
                     </div>
-
                     <footer class="entry-footer">
                         <div class="social-share">
                             <span><?php esc_html_e('Deel', 'fundament-media'); // Display the "Share" label ?></span>
@@ -61,7 +59,6 @@ get_header();
                 </div>
             </div>
         </article>
-
         <?php
     endwhile; // End of the loop.
     ?>
