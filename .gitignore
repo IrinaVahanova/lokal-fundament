@@ -1,3 +1,4 @@
+# Log files and backups
 *.log
 *.swp
 *.back
@@ -6,12 +7,16 @@
 *.sql.gz
 ~*
 
+# Sensitive configuration files
+wp-config.php
 .htaccess
 .maintenance
 
-wp-config.php
+# Sitemap files
 sitemap.xml
 sitemap.xml.gz
+
+# WordPress content directories
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/
@@ -19,53 +24,37 @@ wp-content/backup-db/
 wp-content/cache/
 wp-content/backups/
 
+# WordPress caching files
 wp-content/advanced-cache.php
 wp-content/object-cache.php
 wp-content/wp-cache-config.php
 wp-content/db.php
 
-wp-admin/
-wp-includes/
-/index.php
-/license.txt
-/readme.html
+# WordPress debug and log files
+wp-content/wflogs/
+wp-content/debug.log
+debug.log
+error_log
 
-# de_DE
-/liesmich.html
+# IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
 
-# it_IT
-/LEGGIMI.txt
-/licenza.html
+# Configuration and temporary files
+.DS_Store
+Thumbs.db
+*.env
+*.tmp
+logs/
+tmp/
+trace/
+node_modules/
+yarn.lock
+package-lock.json
 
-# da_DK
-/licens.html
-
-# es_ES, es_PE
-/licencia.txt
-
-# hu_HU
-/licenc.txt
-/olvasdel.html
-
-# sk_SK
-/licencia-sk_SK.txt
-
-# sv_SE
-/licens-sv_SE.txt
-
-/wp-activate.php
-/wp-blog-header.php
-/wp-comments-post.php
-/wp-config-sample.php
-/wp-cron.php
-/wp-links-opml.php
-/wp-load.php
-/wp-login.php
-/wp-mail.php
-/wp-settings.php
-/wp-signup.php
-/wp-trackback.php
-/xmlrpc.php
-/.ftpquota
-/.vscode
+# System files and backups
+.ftpquota
 /orangebl
+xmlrpc.php
